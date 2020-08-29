@@ -1,0 +1,11 @@
+baseURL = "https://benelog.net/"
+languageCode = "ko-KR"
+title = "benelog.net"
+theme = "hugo-theme-notrack"
+newContentEditor = "nvim"
+# disqusShortname = "example"
+paginate = 4
+
+[params]
+  author = "정상혁"
+  siteHeading = "benelog.net" # defaults to author
