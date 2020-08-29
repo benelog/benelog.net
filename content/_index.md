@@ -8,6 +8,8 @@ menu:
     weight: 1
 ---
 
+프로그래머 정상혁의 사이트
+
 ## benelog.net 의 사이트
 * https://blog.benelog.net : S/W 개발에 대한 블로그
 * https://bookshelf-it.benelog.net : IT 독서 메모
@@ -16,7 +18,7 @@ menu:
 * https://english.benelog.net : 영어 공부 메모
 * https://me2day.benelog.net : 미투데이 (아키이빙)
 
-## 사용하는 서비스 사이트
+## 다른 서비스의 개인 계정
 * https://github.com/benelog
 * https://facebook.com/benelog
 * https://www.linkedin.com/in/benelog/
