@@ -21,4 +21,6 @@ menu:
 ## 다른 서비스의 개인 계정
 * https://github.com/benelog
 * https://facebook.com/benelog
+* https://blog.naver.com/benelog
+* https://story.kakao.com/benelog
 * https://www.linkedin.com/in/benelog/
