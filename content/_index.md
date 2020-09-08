@@ -23,3 +23,19 @@ menu:
 * https://blog.naver.com/benelog
 * https://story.kakao.com/benelog
 * https://www.linkedin.com/in/benelog/
+
+----
+
+## 아이디의 뜻
+
+- bene [bénə]
+    - ((연결형)) 「선(善)양(良)」의 뜻(opp. male-)
+    - benefit, benefic 등의 단어에도 들어감. 이태리 어로도 bene가 '좋은' 이라는 뜻.
+    - 쉬운 영어로 'good'
+- log [lɔːɡ; lɑːɡ]
+    - ((연결형)) 「말」의 뜻.
+    - prologue, dialog, epilogue 등의 단어에도 들어감.
+    - 쉬운 영어로 ‘word'
+- bene + log =  A good word. 좋은 말, 좋은 소식. 호언(好言).
+    - 처음에는 이메일용이라서 위와 같은 의미로로 만들습니다.
+    - 군대가기 전에 휴학해서 할 일이 없었을 때 고민해서 지은 아이디입니다.
