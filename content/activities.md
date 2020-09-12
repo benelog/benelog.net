@@ -1,5 +1,5 @@
 ---
-title: "주요 활동"
+title: "주요 대외 활동"
 date: 2020-06-01T17:11:12+02:00
 draft: false
 menu:
