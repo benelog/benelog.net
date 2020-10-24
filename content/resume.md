@@ -10,8 +10,8 @@ menu:
 
 ## 주요 기술
 - 언어
-    - 주사용 : Java, Kotlin, Groovy
-    - 경험 :  JavaScript, Ruby
+    - 주사용 : Java
+    - 경험 :  JavaScript, Kotlin, Ruby,  Groovy
 - 프레임워크
     - 주사용 : Spring framework, Spring Web MVC, Spring Batch
     - 경험 : React
@@ -28,12 +28,11 @@ menu:
 - (2012) 하나투어 쪽지 시스템 마이그리에션
 - (2012) 삼성전자 컨텐츠 홈 스크린
 - (2014) 패치현황 시스템
-- (2017) 사내협업시스템 개편
-- (2018) 네이버 개발자센터 운영
-
+- (2017) 사내협업시스템 (Yobi) 개편, 네이버 개발자센터 운영
+- (2020) 네이버 페이 주문 시스템 재구현 프로젝트
 
 ### 삼성 SDS (2004 ~ 2008)
-소속조직 : 공고IE, S/W Engineering 팀
+소속조직 : 공공IE, S/W Engineering 팀
 
 - 교육부 NEIS 유지보수, 신사업 PoC
 - 행정자지부 정보화마을
