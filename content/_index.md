@@ -17,12 +17,13 @@ menu:
 * https://surplus.benelog.net : 잡다한 글 쓰기
 * https://me2day.benelog.net : 미투데이 (아키이빙)
 
-## 다른 서비스의 개인 계정
-* https://github.com/benelog
-* https://facebook.com/benelog
-* https://blog.naver.com/benelog
-* https://story.kakao.com/benelog
-* https://www.linkedin.com/in/benelog/
+## SNS 개인 계정
+* https://facebook.com/benelog : 프로그래밍 이야기하는 공간
+* https://github.com/benelog : 개인 프로젝트 소스 저장소
+* https://story.kakao.com/benelog : 가족 사진 올리는 공간
+* https://blog.naver.com/benelog : 일상 생활과 메모
+* https://www.linkedin.com/in/benelog/ : 경력 공유
+* https://www.strava.com/athletes/benelog : 달리기 기록 저장소
 
 ----
 
