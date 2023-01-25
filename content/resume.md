@@ -9,15 +9,11 @@ menu:
 ---
 
 ## 주요 기술
-- 언어
-    - 주사용 : Java
-    - 경험 :  JavaScript, Kotlin, Ruby,  Groovy
-- 프레임워크
-    - 주사용 : Spring framework, Spring Web MVC, Spring Batch
-    - 경험 : React
+- 언어 : Java, Kotlin
+- 프레임워크 : Spring framework, Spring Web MVC, Spring Batch
 
 ## 주요 프로젝트
-### 네이버 (2008 ~ 2022)
+### 네이버 (2008 ~ 2023)
 소속 조직: 서비스관리 개발랩, 생산성혁신랩, NTS 신규서비스 개발팀, NBP 웹플랫폼개발랩, PaaS 등
 
 - (2020-2022) 네이버 페이 주문 시스템 재구축 프로젝트
