@@ -14,7 +14,6 @@ menu:
 * https://blog.benelog.net : S/W 개발에 대한 블로그
 * https://bookshelf-it.benelog.net : IT 독서 메모
 * https://diary.benelog.net : 여가 활동 일기
-* https://surplus.benelog.net : 잡다한 글 쓰기
 * https://me2day.benelog.net : 미투데이 (아키이빙)
 
 ## SNS 개인 계정
@@ -22,6 +21,7 @@ menu:
 * https://github.com/benelog : 개인 프로젝트 소스 저장소
 * https://story.kakao.com/benelog : 가족 사진 올리는 공간
 * https://blog.naver.com/benelog : 일상 생활과 메모
+* https://www.threads.com/@sanghyuk_jung : 
 * https://www.linkedin.com/in/benelog/ : 경력 공유
 * https://www.strava.com/athletes/benelog : 달리기 기록 저장소
 
