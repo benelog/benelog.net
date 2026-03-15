@@ -13,17 +13,19 @@ menu:
 ## benelog.net 의 사이트
 * https://blog.benelog.net : S/W 개발에 대한 블로그
 * https://bookshelf-it.benelog.net : IT 독서 메모
+* https://devnote.benelog.net : S/W 개발 자료 모음
+* https://wiki.benelog.net : 여러 분야 자료 모음
 * https://diary.benelog.net : 여가 활동 일기
 * https://me2day.benelog.net : 미투데이 (아키이빙)
 
 ## SNS 개인 계정
-* https://facebook.com/benelog : 프로그래밍 이야기하는 공간
+* https://facebook.com/benelog : 프로그래밍 관련 이야기
 * https://github.com/benelog : 개인 프로젝트 소스 저장소
-* https://story.kakao.com/benelog : 가족 사진 올리는 공간
-* https://blog.naver.com/benelog : 일상 생활과 메모
-* https://www.threads.com/@sanghyuk_jung : 
+* https://story.kakao.com/benelog : 가족 사진
+* https://blog.naver.com/benelog : 일상 메모
+* https://www.threads.com/@sanghyuk_jung : 일상 메모
 * https://www.linkedin.com/in/benelog/ : 경력 공유
-* https://www.strava.com/athletes/benelog : 달리기 기록 저장소
+* https://www.strava.com/athletes/benelog : 달리기
 
 ----
 
