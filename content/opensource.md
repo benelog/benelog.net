@@ -48,7 +48,7 @@ menu:
 | [2016-05-25](https://github.com/spring-projects/spring-framework/pull/1065) | [spring-framework](https://github.com/spring-projects/spring-framework) | Java 엔터프라이즈 핵심 프레임워크 | 문서화 | 메인테이너가 머지해 반영 |
 | [2016-04-23](https://github.com/florentp/spring-simplejdbcupdate/pull/3) | [spring-simplejdbcupdate](https://github.com/florentp/spring-simplejdbcupdate) | Spring JDBC용 SimpleJdbcUpdate 구현체 | 기능 개선 | 머지되어 반영 |
 | [2014-02-13](https://github.com/spring-projects/spring-batch/pull/277) | [spring-batch](https://github.com/spring-projects/spring-batch) | Java/Spring 기반 배치 처리 프레임워크 | 기능 개선 | 메인테이너가 대안 구현(lobType 직접 주입 방식)으로 반영 |
-| [2014](https://github.com/eggert/tz/pull/9) | [tz](https://github.com/eggert/tz) | 타임존 데이터베이스(tzdata) 및 코드 | 버그 수정 | 저장소 재구성으로 PR 기록이 유실되어 현재 조회 불가 |
+| [2014](https://github.com/eggert/tz/pull/9) | [tz](https://github.com/eggert/tz) | 타임존 데이터베이스(tzdata) 및 코드 | 버그 수정 | 메일 소통을 통해 반영 |
 | [2013-12-04](https://github.com/robolectric/robolectric/pull/861) | [robolectric](https://github.com/robolectric/robolectric) | 안드로이드 단위 테스트 프레임워크 | 기능 개선 | 머지되어 반영 (ShadowProcess 기본 구현 추가) |
 | [2013-11-26](https://github.com/robolectric/robolectric/pull/853) | [robolectric](https://github.com/robolectric/robolectric) | 안드로이드 단위 테스트 프레임워크 | 기능 개선 | 머지되어 반영 (ShadowCookieManager 재구현) |
 | [2013-11-01](https://github.com/robolectric/robolectric/pull/804) | [robolectric](https://github.com/robolectric/robolectric) | 안드로이드 단위 테스트 프레임워크 | 문서화 | 머지되어 반영 |
