@@ -36,7 +36,7 @@ menu:
 | 2021-01-15 | [spring-batch#3831](https://github.com/spring-projects/spring-batch/pull/3831) | CallableTaskletAdapter에 Callable을 받는 생성자 추가 | 기능 개선 | 반영 | 메인테이너 커밋 (v5.1.0-M3) |
 | 2020-07-10 | [papercss-hugo-theme#5](https://github.com/zwbetz-gh/papercss-hugo-theme/pull/5) | Disqus 댓글 지원 추가 | 기능 개선 | 반영 | merge |
 | 2020-03-18 | [spring-batch#3682](https://github.com/spring-projects/spring-batch/pull/3682) | JsonItemReader 생성자가 setExecutionContextName()을 호출하지 않는 문제 수정 | 버그 수정 | 반영 | merge (v4.3.0) |
-| 2019-12-12 | [spring-framework#24197](https://github.com/spring-projects/spring-framework/pull/24197) | NamedParameterJdbcTemplate의 ParsedSql 캐시 동시 접근 개선 | 기능 개선 | 반영 | 메인테이너 커밋 (v5.3-RC1) |
+| 2019-12-12 | [spring-framework#24197](https://github.com/spring-projects/spring-framework/pull/24197) | NamedParameterJdbcTemplate의 ParsedSql 캐시 동시 접근 개선 | 기능 개선 | 참고 | 메인테이너가 재구현 (v5.3-RC1) |
 | 2019-04-23 | [micronaut-spring#24](https://github.com/micronaut-projects/micronaut-spring/pull/24) | pom.xml의 오타 수정 | 버그 수정 | 반영 | merge |
 | 2019-03-28 | [spring-data-jdbc#146](https://github.com/spring-projects/spring-data-jdbc/pull/146) | 불필요한 null 체크 제거 | 기능 개선 | 반영 | 메인테이너 커밋 |
 | 2019-03-28 | [kotlin-web-site#1346](https://github.com/JetBrains/kotlin-web-site/pull/1346) | Java 8부터 완화된 final 키워드 제약을 문서에 반영 | 문서 오류 | 반영 | merge |
