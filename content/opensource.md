@@ -10,11 +10,12 @@ menu:
 ---
 
 외부 오픈소스 프로젝트에 Pull Request로 기여한 내역입니다. 
-총 63건입니다.
-기여 성격별로는 버그 수정 13건, 기능 개선 14건, 문서 오류 35건, 문서 개선 1건입니다.
+총 64건입니다.
+기여 성격별로는 버그 수정 13건, 기능 개선 15건, 문서 오류 35건, 문서 개선 1건입니다.
 
 | 기여일자 | Pull request | PR 설명 | 기여 성격 | 기여 결과 | 반영 방식 |
 |---|---|---|---|---|---|
+| 2026-07-25 | [spring-data-relational#2333](https://github.com/spring-projects/spring-data-relational/pull/2333) | @Query 메서드에서 실행 시점에 SQL을 생성하는 QueryProvider SPI 추가 | 기능 개선 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-data-examples#714](https://github.com/spring-projects/spring-data-examples/pull/714) | README 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-ai-examples#139](https://github.com/spring-projects/spring-ai-examples/pull/139) | 예제 코드 문자열의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-integration-samples#407](https://github.com/spring-projects/spring-integration-samples/pull/407) | README 문서와 Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
