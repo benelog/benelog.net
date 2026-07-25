@@ -10,11 +10,24 @@ menu:
 ---
 
 외부 오픈소스 프로젝트에 Pull Request로 기여한 내역입니다. 
-총 49건입니다.
-기여 성격별로는 버그 수정 13건, 기능 개선 14건, 문서 오류 21건, 문서 개선 1건입니다.
+총 62건입니다.
+기여 성격별로는 버그 수정 13건, 기능 개선 14건, 문서 오류 34건, 문서 개선 1건입니다.
 
 | 기여일자 | Pull request | PR 설명 | 기여 성격 | 기여 결과 | 반영 방식 |
 |---|---|---|---|---|---|
+| 2026-07-25 | [spring-data-examples#714](https://github.com/spring-projects/spring-data-examples/pull/714) | README 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-ai-examples#139](https://github.com/spring-projects/spring-ai-examples/pull/139) | 예제 코드 문자열의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-integration-samples#407](https://github.com/spring-projects/spring-integration-samples/pull/407) | README 문서와 Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-batch-extensions#217](https://github.com/spring-projects/spring-batch-extensions/pull/217) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-credhub#476](https://github.com/spring-projects/spring-credhub/pull/476) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-data-elasticsearch#3314](https://github.com/spring-projects/spring-data-elasticsearch/pull/3314) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-graphql#1483](https://github.com/spring-projects/spring-graphql/pull/1483) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-ldap#1577](https://github.com/spring-projects/spring-ldap/pull/1577) | Javadoc과 코드 주석의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-modulith#1779](https://github.com/spring-projects/spring-modulith/pull/1779) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-hateoas#2536](https://github.com/spring-projects/spring-hateoas/pull/2536) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-vault#1008](https://github.com/spring-projects/spring-vault/pull/1008) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-tools#1945](https://github.com/spring-projects/spring-tools/pull/1945) | Javadoc과 CHANGELOG 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-data-couchbase#2144](https://github.com/spring-projects/spring-data-couchbase/pull/2144) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-amqp#3534](https://github.com/spring-projects/spring-amqp/pull/3534) | 참조 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-data-rest#2580](https://github.com/spring-projects/spring-data-rest/pull/2580) | 참조 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-data-cassandra#1664](https://github.com/spring-projects/spring-data-cassandra/pull/1664) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
