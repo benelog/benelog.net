@@ -10,28 +10,35 @@ menu:
 ---
 
 외부 오픈소스 프로젝트에 Pull Request로 기여한 내역입니다. 
-총 42건입니다.
-기여 성격별로는 버그 수정 12건, 기능 개선 14건, 문서 오류 15건, 문서 개선 1건입니다.
+총 49건입니다.
+기여 성격별로는 버그 수정 13건, 기능 개선 14건, 문서 오류 21건, 문서 개선 1건입니다.
 
 | 기여일자 | Pull request | PR 설명 | 기여 성격 | 기여 결과 | 반영 방식 |
 |---|---|---|---|---|---|
+| 2026-07-25 | [spring-amqp#3534](https://github.com/spring-projects/spring-amqp/pull/3534) | 참조 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-data-rest#2580](https://github.com/spring-projects/spring-data-rest/pull/2580) | 참조 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-data-cassandra#1664](https://github.com/spring-projects/spring-data-cassandra/pull/1664) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-data-redis#3402](https://github.com/spring-projects/spring-data-redis/pull/3402) | Javadoc과 참조 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-webflow#1852](https://github.com/spring-projects/spring-webflow/pull/1852) | Javadoc, XSD, 참조 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-data-neo4j#3113](https://github.com/spring-projects/spring-data-neo4j/pull/3113) | ADR 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-22 | [spring-batch#5467](https://github.com/spring-projects/spring-batch/pull/5467) | ChunkOrientedStepBuilder에서 리스너가 중복 등록되는 문제 수정 | 버그 수정 | 진행 중 | 리뷰 대기 |
 | 2026-07-19 | [spring-batch#5464](https://github.com/spring-projects/spring-batch/pull/5464) | 프록시가 적용된 빈에서도 배치 관측 기능이 동작하도록 수정 | 버그 수정 | 진행 중 | 리뷰 대기 |
 | 2026-04-10 | [intel/vision-drivers#35](https://github.com/intel/vision-drivers/pull/35) | 펌웨어가 지원하지 않는 장치에 SET_HOST_IDENTIFIER 명령을 보내 초기화가 실패하는 문제 수정 | 버그 수정 | 참고 | 같은 수정을 포함한 다른 기여자의 PR([#38](https://github.com/intel/vision-drivers/pull/38))로 merge |
 | 2025-12-07 | [spring-batch#5140](https://github.com/spring-projects/spring-batch/pull/5140) | ResourcelessJobRepository의 조회 로직 개선과 삭제 연산 추가 | 기능 개선 | 반영 | 메인테이너 커밋 (v6.0.1) |
 | 2025-11-27 | [spring-batch#5116](https://github.com/spring-projects/spring-batch/pull/5116) | MetaDataInstanceFactory에서 JobParameters가 전달되지 않는 문제 수정 | 버그 수정 | 반영 | 메인테이너 커밋 (v6.0.1) |
 | 2025-11-01 | [spring-batch#5071](https://github.com/spring-projects/spring-batch/pull/5071) | MultiResourceItemReaderBuilder에 패턴으로 여러 파일을 지정하는 기능 추가 | 기능 개선 | 진행 중 | 리뷰 대기 |
 | 2025-06-27 | [spring-boot#46228](https://github.com/spring-projects/spring-boot/pull/46228) | spring.batch.job.enabled 프로퍼티의 잘못된 설명 수정 | 문서 오류 | 반영 | 메인테이너 커밋 (v3.4.8) |
-| 2024-08-02 | [spring-framework#33308](https://github.com/spring-projects/spring-framework/pull/33308) | Javadoc의 중복 단어 표기 수정 | 문서 오류 | 반영 | 메인테이너 커밋 (v6.2.0-M7) |
-| 2024-08-02 | [spring-integration#9364](https://github.com/spring-projects/spring-integration/pull/9364) | Javadoc의 중복 단어 표기 수정 | 문서 오류 | 반영 | merge (v6.4.0-M2) |
-| 2024-07-24 | [spring-security#15469](https://github.com/spring-projects/spring-security/pull/15469) | Javadoc의 중복 단어 표기 수정 | 문서 오류 | 반영 | merge (v6.4.0-M2) |
-| 2024-07-24 | [spring-data-relational#1840](https://github.com/spring-projects/spring-data-relational/pull/1840) | Javadoc의 중복 단어 표기 수정 | 문서 오류 | 반영 | 메인테이너 커밋 (v3.2.9) |
-| 2024-07-23 | [dataflow.spring.io#520](https://github.com/spring-io/dataflow.spring.io/pull/520) | 문서의 중복 단어 표기 수정 | 문서 오류 | 반영 | merge |
+| 2024-08-02 | [spring-framework#33308](https://github.com/spring-projects/spring-framework/pull/33308) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | 메인테이너 커밋 (v6.2.0-M7) |
+| 2024-08-02 | [spring-integration#9364](https://github.com/spring-projects/spring-integration/pull/9364) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge (v6.4.0-M2) |
+| 2024-07-24 | [spring-security#15469](https://github.com/spring-projects/spring-security/pull/15469) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge (v6.4.0-M2) |
+| 2024-07-24 | [spring-data-relational#1840](https://github.com/spring-projects/spring-data-relational/pull/1840) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | 메인테이너 커밋 (v3.2.9) |
+| 2024-07-23 | [dataflow.spring.io#520](https://github.com/spring-io/dataflow.spring.io/pull/520) | 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge |
 | 2024-07-20 | [dataflow.spring.io#518](https://github.com/spring-io/dataflow.spring.io/pull/518) | Spring Framework 버전과 혼동되지 않도록 'Spring Boot' 버전임을 명시 | 문서 개선 | 기각 | 프로젝트 아카이브 준비로 닫힘 |
 | 2023-12-01 | [spring-boot#38631](https://github.com/spring-projects/spring-boot/pull/38631) | 사용자 정의 ExecutionContextSerializer를 배치 자동 설정에서 지원 | 기능 개선 | 기각 | 선행 PR([#38328](https://github.com/spring-projects/spring-boot/pull/38328))과 중복 |
 | 2023-04-03 | [spring-boot#34844](https://github.com/spring-projects/spring-boot/pull/34844) | BatchProperties에 남아 있던 낡은 JPA 참조 설명 수정 | 문서 오류 | 반영 | 메인테이너 커밋 (v3.0.6) |
 | 2023-03-13 | [spring-boot#34596](https://github.com/spring-projects/spring-boot/pull/34596) | JobLauncherApplicationRunner의 Javadoc 오류 수정 | 문서 오류 | 반영 | 메인테이너 커밋 (v3.0.5) |
 | 2022-12-30 | [datafaker#585](https://github.com/datafaker-net/datafaker/pull/585) | 한국어 이름 데이터의 오류 수정 | 버그 수정 | 반영 | merge |
-| 2021-08-18 | [spring-framework#27291](https://github.com/spring-projects/spring-framework/pull/27291) | Javadoc과 XSD의 중복 단어 표기 수정 | 문서 오류 | 반영 | 메인테이너 커밋 (v5.3.10) |
+| 2021-08-18 | [spring-framework#27291](https://github.com/spring-projects/spring-framework/pull/27291) | Javadoc과 XSD의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | 메인테이너 커밋 (v5.3.10) |
 | 2021-07-18 | [spring-batch#3965](https://github.com/spring-projects/spring-batch/pull/3965) | Step 설정 문서의 오타 수정 | 문서 오류 | 반영 | merge (v4.3.4) |
 | 2021-01-15 | [spring-batch#3831](https://github.com/spring-projects/spring-batch/pull/3831) | CallableTaskletAdapter에 Callable을 받는 생성자 추가 | 기능 개선 | 반영 | 메인테이너 커밋 (v5.1.0-M3) |
 | 2020-07-10 | [papercss-hugo-theme#5](https://github.com/zwbetz-gh/papercss-hugo-theme/pull/5) | Disqus 댓글 지원 추가 | 기능 개선 | 반영 | merge |
