@@ -10,8 +10,8 @@ menu:
 ---
 
 외부 오픈소스 프로젝트에 Pull Request로 기여한 내역입니다. 
-총 62건입니다.
-기여 성격별로는 버그 수정 13건, 기능 개선 14건, 문서 오류 34건, 문서 개선 1건입니다.
+총 63건입니다.
+기여 성격별로는 버그 수정 13건, 기능 개선 14건, 문서 오류 35건, 문서 개선 1건입니다.
 
 | 기여일자 | Pull request | PR 설명 | 기여 성격 | 기여 결과 | 반영 방식 |
 |---|---|---|---|---|---|
@@ -20,7 +20,7 @@ menu:
 | 2026-07-25 | [spring-integration-samples#407](https://github.com/spring-projects/spring-integration-samples/pull/407) | README 문서와 Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-batch-extensions#217](https://github.com/spring-projects/spring-batch-extensions/pull/217) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-credhub#476](https://github.com/spring-projects/spring-credhub/pull/476) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
-| 2026-07-25 | [spring-data-elasticsearch#3314](https://github.com/spring-projects/spring-data-elasticsearch/pull/3314) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-data-elasticsearch#3314](https://github.com/spring-projects/spring-data-elasticsearch/pull/3314) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge |
 | 2026-07-25 | [spring-graphql#1483](https://github.com/spring-projects/spring-graphql/pull/1483) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-ldap#1577](https://github.com/spring-projects/spring-ldap/pull/1577) | Javadoc과 코드 주석의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-modulith#1779](https://github.com/spring-projects/spring-modulith/pull/1779) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
@@ -47,6 +47,7 @@ menu:
 | 2024-07-24 | [spring-data-relational#1840](https://github.com/spring-projects/spring-data-relational/pull/1840) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | 메인테이너 커밋 (v3.2.9) |
 | 2024-07-23 | [dataflow.spring.io#520](https://github.com/spring-io/dataflow.spring.io/pull/520) | 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge |
 | 2024-07-20 | [dataflow.spring.io#518](https://github.com/spring-io/dataflow.spring.io/pull/518) | Spring Framework 버전과 혼동되지 않도록 'Spring Boot' 버전임을 명시 | 문서 개선 | 기각 | 프로젝트 아카이브 준비로 닫힘 |
+| 2024-06-05 | [cron-expression-descriptor#14](https://github.com/voidburn/cron-expression-descriptor/pull/14) | 클래스 이름 변경(ExpressionDescriptor -> CronExpressionDescriptor)을 README 문서에 반영 | 문서 오류 | 반영 | merge |
 | 2023-12-01 | [spring-boot#38631](https://github.com/spring-projects/spring-boot/pull/38631) | 사용자 정의 ExecutionContextSerializer를 배치 자동 설정에서 지원 | 기능 개선 | 기각 | 선행 PR([#38328](https://github.com/spring-projects/spring-boot/pull/38328))과 중복 |
 | 2023-04-03 | [spring-boot#34844](https://github.com/spring-projects/spring-boot/pull/34844) | BatchProperties에 남아 있던 낡은 JPA 참조 설명 수정 | 문서 오류 | 반영 | 메인테이너 커밋 (v3.0.6) |
 | 2023-03-13 | [spring-boot#34596](https://github.com/spring-projects/spring-boot/pull/34596) | JobLauncherApplicationRunner의 Javadoc 오류 수정 | 문서 오류 | 반영 | 메인테이너 커밋 (v3.0.5) |
