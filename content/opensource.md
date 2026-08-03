@@ -9,18 +9,19 @@ menu:
     weight: 6
 ---
 
-외부 오픈소스 프로젝트에 Pull Request로 기여한 내역입니다. 총 66건입니다.
+외부 오픈소스 프로젝트에 Pull Request로 기여한 내역입니다. 총 67건입니다.
 
 | 기여 성격 | 건수 | | 기여 결과 | 건수 |
 |---|---:|---|---|---:|
 | 버그 수정 | 14 | | 반영 | 44 |
 | 기능 개선 | 16 | | 참고 | 3 |
-| 문서 오류 | 35 | | 기각 | 3 |
-| 문서 개선 | 1 | | 진행 중 | 16 |
-| **합계** | **66** | | **합계** | **66** |
+| 문서 오류 | 36 | | 기각 | 3 |
+| 문서 개선 | 1 | | 진행 중 | 17 |
+| **합계** | **67** | | **합계** | **67** |
 
 | 기여일자 | Pull request | PR 설명 | 기여 성격 | 기여 결과 | 반영 방식 |
 |---|---|---|---|---|---|
+| 2026-08-04 | [spring-batch#5476](https://github.com/spring-projects/spring-batch/pull/5476) | 참조 문서의 분산 추적 예시가 스팬을 만들지 않는 핸들러를 안내하는 문제 수정 | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-28 | [spring-batch#5469](https://github.com/spring-projects/spring-batch/pull/5469) | @OnChunkError 애노테이션이 StepListenerMetaData에 없어 리스너로 등록되지 않는 문제 수정 | 버그 수정 | 진행 중 | 리뷰 대기 |
 | 2026-07-26 | [spring-framework#37088](https://github.com/spring-projects/spring-framework/pull/37088) | SQL 주석 안의 이름 있는 파라미터를 인식하는 allowParametersInComments 옵션 추가 | 기능 개선 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-data-relational#2333](https://github.com/spring-projects/spring-data-relational/pull/2333) | @Query 메서드에서 실행 시점에 SQL을 생성하는 QueryProvider SPI 추가 | 기능 개선 | 진행 중 | 리뷰 대기 |
