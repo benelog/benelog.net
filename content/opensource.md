@@ -9,18 +9,20 @@ menu:
     weight: 6
 ---
 
-외부 오픈소스 프로젝트에 Pull Request(또는 Gerrit CL)로 기여한 내역입니다. 총 69건입니다.
+외부 오픈소스 프로젝트에 Pull Request(또는 Gerrit CL)로 기여한 내역입니다. 총 71건입니다.
 
 | 기여 성격 | 건수 | | 기여 결과 | 건수 |
 |---|---:|---|---|---:|
 | 버그 수정 | 14 | | 반영 | 44 |
 | 기능 개선 | 16 | | 참고 | 3 |
-| 문서 오류 | 38 | | 기각 | 3 |
-| 문서 개선 | 1 | | 진행 중 | 19 |
-| **합계** | **69** | | **합계** | **69** |
+| 문서 오류 | 40 | | 기각 | 3 |
+| 문서 개선 | 1 | | 진행 중 | 21 |
+| **합계** | **71** | | **합계** | **71** |
 
 | 기여일자 | Pull request / CL | PR 설명 | 기여 성격 | 기여 결과 | 반영 방식 |
 |---|---|---|---|---|---|
+| 2026-08-04 | [vscode#328957](https://github.com/microsoft/vscode/pull/328957) | 노트북 셀 툴바 위치 설정 설명의 중복 단어 표기 수정 ("for for" -> "for") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-08-04 | [vscode#328961](https://github.com/microsoft/vscode/pull/328961) | Copilot 프롬프트 텍스트의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-08-04 | [golang/go CL 810180](https://go-review.googlesource.com/c/go/+/810180) | 문서와 테스트 데이터의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-08-04 | [golang/tools CL 810200](https://go-review.googlesource.com/c/tools/+/810200) | 패키지 주석의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-08-04 | [spring-batch#5476](https://github.com/spring-projects/spring-batch/pull/5476) | 참조 문서의 분산 추적 예시가 스팬을 만들지 않는 핸들러를 안내하는 문제 수정 | 문서 오류 | 진행 중 | 리뷰 대기 |
