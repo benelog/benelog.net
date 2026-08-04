@@ -9,18 +9,20 @@ menu:
     weight: 6
 ---
 
-외부 오픈소스 프로젝트에 Pull Request로 기여한 내역입니다. 총 67건입니다.
+외부 오픈소스 프로젝트에 Pull Request(또는 Gerrit CL)로 기여한 내역입니다. 총 69건입니다.
 
 | 기여 성격 | 건수 | | 기여 결과 | 건수 |
 |---|---:|---|---|---:|
 | 버그 수정 | 14 | | 반영 | 44 |
 | 기능 개선 | 16 | | 참고 | 3 |
-| 문서 오류 | 36 | | 기각 | 3 |
-| 문서 개선 | 1 | | 진행 중 | 17 |
-| **합계** | **67** | | **합계** | **67** |
+| 문서 오류 | 38 | | 기각 | 3 |
+| 문서 개선 | 1 | | 진행 중 | 19 |
+| **합계** | **69** | | **합계** | **69** |
 
-| 기여일자 | Pull request | PR 설명 | 기여 성격 | 기여 결과 | 반영 방식 |
+| 기여일자 | Pull request / CL | PR 설명 | 기여 성격 | 기여 결과 | 반영 방식 |
 |---|---|---|---|---|---|
+| 2026-08-04 | [golang/go CL 810180](https://go-review.googlesource.com/c/go/+/810180) | 문서와 테스트 데이터의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-08-04 | [golang/tools CL 810200](https://go-review.googlesource.com/c/tools/+/810200) | 패키지 주석의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-08-04 | [spring-batch#5476](https://github.com/spring-projects/spring-batch/pull/5476) | 참조 문서의 분산 추적 예시가 스팬을 만들지 않는 핸들러를 안내하는 문제 수정 | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-28 | [spring-batch#5469](https://github.com/spring-projects/spring-batch/pull/5469) | @OnChunkError 애노테이션이 StepListenerMetaData에 없어 리스너로 등록되지 않는 문제 수정 | 버그 수정 | 진행 중 | 리뷰 대기 |
 | 2026-07-26 | [spring-framework#37088](https://github.com/spring-projects/spring-framework/pull/37088) | SQL 주석 안의 이름 있는 파라미터를 인식하는 allowParametersInComments 옵션 추가 | 기능 개선 | 진행 중 | 리뷰 대기 |
