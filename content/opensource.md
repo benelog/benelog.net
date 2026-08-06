@@ -13,24 +13,24 @@ menu:
 
 | 기여 성격 | 건수 | | 기여 결과 | 건수 |
 |---|---:|---|---|---:|
-| 버그 수정 | 14 | | 반영 | 44 |
+| 버그 수정 | 14 | | 반영 | 45 |
 | 기능 개선 | 16 | | 참고 | 3 |
-| 문서 오류 | 42 | | 기각 | 3 |
-| 문서 개선 | 1 | | 진행 중 | 23 |
+| 문서 오류 | 42 | | 기각 | 5 |
+| 문서 개선 | 1 | | 진행 중 | 20 |
 | **합계** | **73** | | **합계** | **73** |
 
 | 기여일자 | Pull request / CL | PR 설명 | 기여 성격 | 기여 결과 | 반영 방식 |
 |---|---|---|---|---|---|
-| 2026-08-04 | [rust#160508](https://github.com/rust-lang/rust/pull/160508) | 컴파일러 주석과 테스트 코드의 중복 단어 표기 수정 ("the the" -> "the", "for for" -> "for") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-08-04 | [rust#160508](https://github.com/rust-lang/rust/pull/160508) | 컴파일러 주석과 테스트 코드의 중복 단어 표기 수정 ("the the" -> "the", "for for" -> "for") | 문서 오류 | 기각 | 내부 문서의 오탈자만 고치는 기여는 받지 않는 프로젝트 정책 |
 | 2026-08-04 | [kotlin#7235](https://github.com/JetBrains/kotlin/pull/7235) | 주석, KDoc, 오류 메시지의 중복 단어 표기 수정 ("the the" -> "the", "for for" -> "for") | 문서 오류 | 진행 중 | 리뷰 대기 |
-| 2026-08-04 | [vscode#328957](https://github.com/microsoft/vscode/pull/328957) | 노트북 셀 툴바 위치 설정 설명의 중복 단어 표기 수정 ("for for" -> "for") | 문서 오류 | 진행 중 | 리뷰 대기 |
+| 2026-08-04 | [vscode#328957](https://github.com/microsoft/vscode/pull/328957) | 노트북 셀 툴바 위치 설정 설명의 중복 단어 표기 수정 ("for for" -> "for") | 문서 오류 | 반영 | merge |
 | 2026-08-04 | [vscode#328961](https://github.com/microsoft/vscode/pull/328961) | Copilot 프롬프트 텍스트의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-08-04 | [golang/go CL 810180](https://go-review.googlesource.com/c/go/+/810180) | 문서와 테스트 데이터의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-08-04 | [golang/tools CL 810200](https://go-review.googlesource.com/c/tools/+/810200) | 패키지 주석의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-08-04 | [spring-batch#5476](https://github.com/spring-projects/spring-batch/pull/5476) | 참조 문서의 분산 추적 예시가 스팬을 만들지 않는 핸들러를 안내하는 문제 수정 | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-28 | [spring-batch#5469](https://github.com/spring-projects/spring-batch/pull/5469) | @OnChunkError 애노테이션이 StepListenerMetaData에 없어 리스너로 등록되지 않는 문제 수정 | 버그 수정 | 진행 중 | 리뷰 대기 |
 | 2026-07-26 | [spring-framework#37088](https://github.com/spring-projects/spring-framework/pull/37088) | SQL 주석 안의 이름 있는 파라미터를 인식하는 allowParametersInComments 옵션 추가 | 기능 개선 | 진행 중 | 리뷰 대기 |
-| 2026-07-25 | [spring-data-relational#2333](https://github.com/spring-projects/spring-data-relational/pull/2333) | @Query 메서드에서 실행 시점에 SQL을 생성하는 QueryProvider SPI 추가 | 기능 개선 | 진행 중 | 리뷰 대기 |
+| 2026-07-25 | [spring-data-relational#2333](https://github.com/spring-projects/spring-data-relational/pull/2333) | @Query 메서드에서 실행 시점에 SQL을 생성하는 QueryProvider SPI 추가 | 기능 개선 | 기각 | 메인테이너가 기능 도입하지 않기로 결정 |
 | 2026-07-25 | [spring-data-examples#714](https://github.com/spring-projects/spring-data-examples/pull/714) | README 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | 메인테이너 커밋 |
 | 2026-07-25 | [spring-ai-examples#139](https://github.com/spring-projects/spring-ai-examples/pull/139) | 예제 코드 문자열의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-integration-samples#407](https://github.com/spring-projects/spring-integration-samples/pull/407) | README 문서와 Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge |
