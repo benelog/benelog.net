@@ -9,18 +9,19 @@ menu:
     weight: 6
 ---
 
-외부 오픈소스 프로젝트에 Pull Request(또는 Gerrit CL)로 기여한 내역입니다. 총 73건입니다.
+외부 오픈소스 프로젝트에 Pull Request(또는 Gerrit CL)로 기여한 내역입니다. 총 74건입니다.
 
 | 기여 성격 | 건수 | | 기여 결과 | 건수 |
 |---|---:|---|---|---:|
 | 버그 수정 | 14 | | 반영 | 46 |
-| 기능 개선 | 16 | | 참고 | 3 |
+| 기능 개선 | 17 | | 참고 | 3 |
 | 문서 오류 | 42 | | 기각 | 5 |
-| 문서 개선 | 1 | | 진행 중 | 19 |
-| **합계** | **73** | | **합계** | **73** |
+| 문서 개선 | 1 | | 진행 중 | 20 |
+| **합계** | **74** | | **합계** | **74** |
 
 | 기여일자 | Pull request / CL | PR 설명 | 기여 성격 | 기여 결과 | 반영 방식 |
 |---|---|---|---|---|---|
+| 2026-08-09 | [spring-batch#5488](https://github.com/spring-projects/spring-batch/pull/5488) | ResourcesItemReader를 설정하는 ResourcesItemReaderBuilder 추가 (파일 패턴 지정 지원) | 기능 개선 | 진행 중 | 리뷰 대기 |
 | 2026-08-04 | [rust#160508](https://github.com/rust-lang/rust/pull/160508) | 컴파일러 주석과 테스트 코드의 중복 단어 표기 수정 ("the the" -> "the", "for for" -> "for") | 문서 오류 | 기각 | 내부 문서의 오탈자만 고치는 기여는 받지 않는 프로젝트 정책 |
 | 2026-08-04 | [kotlin#7235](https://github.com/JetBrains/kotlin/pull/7235) | 주석, KDoc, 오류 메시지의 중복 단어 표기 수정 ("the the" -> "the", "for for" -> "for") | 문서 오류 | 진행 중 | 리뷰 승인, merge 대기 |
 | 2026-08-04 | [vscode#328957](https://github.com/microsoft/vscode/pull/328957) | 노트북 셀 툴바 위치 설정 설명의 중복 단어 표기 수정 ("for for" -> "for") | 문서 오류 | 반영 | merge |
