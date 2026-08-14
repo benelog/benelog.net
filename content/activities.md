@@ -52,7 +52,7 @@ menu:
 |-----------|-----------|------|-----|
 | 2026.05.28 | [25년 전의 진로 선택과 AI 시대의 변화](https://benelog.github.io/presentations/20260528-yonsei-stats-rc101/) | 연세대학교 응용통계학과 신입생 세미나 | [다운로드](https://benelog.github.io/presentations/20260528-yonsei-stats-rc101/slides.pdf) |
 | 2022.04.13 | [컴퓨터 프로그래밍과 진로](https://benelog.github.io/presentations/20220413-yonsei-stats-rc101/) | 연세대학교 응용통계학과 신입생 세미나 | [다운로드](https://benelog.github.io/presentations/20220413-yonsei-stats-rc101/slides.pdf) |
-| 2021.09.14 | [네이버 개발자 업무와 기술 플랫폼](https://benelog.github.io/presentations/20210914-yonsei-stats-bk/) | 연세대학교 응용통계학과 대학원생 세미나 | [다운로드](https://benelog.github.io/presentations/20210914-yonsei-stats-bk/slides.pdf) |
+| 2021.09.14 | [네이버 개발자 업무와 기술 플랫폼](https://benelog.github.io/presentations/20210914-yonsei-stats-bk/) | [연세대학교 응용통계학과 대학원생 세미나](http://bk21-bigdata.yonsei.ac.kr/bbs/board.php?bo_table=industry&wr_id=11&page=3) | [다운로드](https://benelog.github.io/presentations/20210914-yonsei-stats-bk/slides.pdf) |
 | 2020.05.07 | [엔티티 클래스 설계와 퍼시스턴스 프레임워크](https://benelog.github.io/presentations/20200507-entity-design/) | 우아한형제들 세미나 | [다운로드](https://benelog.github.io/presentations/20200507-entity-design/slides.pdf) |
 | 2017.11.26 | [HTTP/2 세대의 Java](https://benelog.github.io/presentations/20171126-http2-java/) | KSUG(한국 스프링 사용자 모임) 세미나 | [다운로드](https://benelog.github.io/presentations/20171126-http2-java/slides.pdf) |
 | 2015.05.22 | [Java 애플리케이션 트러블 슈팅 사례 & Pinpoint](https://benelog.github.io/presentations/20150522-java-troubleshooting-pinpoint/) | [제11회 D2 오픈세미나 (Java 애플리케이션 트러블 슈팅 편)](https://d2.naver.com/helloworld/1286587) | [다운로드](https://benelog.github.io/presentations/20150522-java-troubleshooting-pinpoint/slides.pdf) |
