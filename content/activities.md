@@ -20,6 +20,8 @@ menu:
 
 ### d2.naver.com
 
+네이버 기술 블로그인 [d2.naver.com](https://d2.naver.com)에 기고한 글입니다.
+
 - [콘퍼런스 참가 신청 기능 개발기](https://d2.naver.com/helloworld/5048491) (2018.06)
 - [백엔드 개발자를 꿈꾸는 학생개발자에게](https://d2.naver.com/news/3435170) (2018.06)
 - [Commons DBCP 이해하기](https://d2.naver.com/helloworld/5102792) (2015.10)
@@ -39,8 +41,9 @@ menu:
 
 ## 발표
 
-- [25년 전의 진로 선택과 AI 시대의 변화](https://benelog.github.io/presentations/20260528-yonsei-stats-rc101/) (2026.05) [[PDF](https://benelog.github.io/presentations/20260528-yonsei-stats-rc101/slides.pdf)]
-- [AI agent에게 개인적인 일 시키기](https://benelog.github.io/presentations/20260426-ai-gent/) (2026.04) [[PDF](https://benelog.github.io/presentations/20260426-ai-gent/slides.pdf)]
-- [컴퓨터 프로그래밍과 진로](https://benelog.github.io/presentations/20220413-yonsei-stats-rc101/) (2022.04) [[PDF](https://benelog.github.io/presentations/20220413-yonsei-stats-rc101/slides.pdf)]
-- [네이버 개발자 업무와 기술 플랫폼](https://benelog.github.io/presentations/20210914-yonsei-stats-bk/) (2021.09) [[PDF](https://benelog.github.io/presentations/20210914-yonsei-stats-bk/slides.pdf)]
-- [엔티티 클래스 설계와 퍼시스턴스 프레임워크](https://benelog.github.io/presentations/20200507-entity-design/) (2020.05) [[PDF](https://benelog.github.io/presentations/20200507-entity-design/slides.pdf)]
+| 발표 날짜 | 발표 제목 | 행사 | PDF |
+|-----------|-----------|------|-----|
+| 2026.05.28 | [25년 전의 진로 선택과 AI 시대의 변화](https://benelog.github.io/presentations/20260528-yonsei-stats-rc101/) | 연세대학교 응용통계학과 신입생 세미나 | [다운로드](https://benelog.github.io/presentations/20260528-yonsei-stats-rc101/slides.pdf) |
+| 2022.04.13 | [컴퓨터 프로그래밍과 진로](https://benelog.github.io/presentations/20220413-yonsei-stats-rc101/) | 연세대학교 응용통계학과 신입생 세미나 | [다운로드](https://benelog.github.io/presentations/20220413-yonsei-stats-rc101/slides.pdf) |
+| 2021.09.14 | [네이버 개발자 업무와 기술 플랫폼](https://benelog.github.io/presentations/20210914-yonsei-stats-bk/) | 연세대학교 응용통계학과 대학원생 세미나 | [다운로드](https://benelog.github.io/presentations/20210914-yonsei-stats-bk/slides.pdf) |
+| 2020.05.07 | [엔티티 클래스 설계와 퍼시스턴스 프레임워크](https://benelog.github.io/presentations/20200507-entity-design/) | 우아한형제들(배달의민족) 세미나 | [다운로드](https://benelog.github.io/presentations/20200507-entity-design/slides.pdf) |
