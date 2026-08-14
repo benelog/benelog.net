@@ -64,4 +64,4 @@ menu:
 | 2010.11.13 | [SpringOne2GX 2010 참석 후기](https://benelog.github.io/presentations/20101113-springone2gx/) | KSUG(한국 스프링 사용자 모임) 세미나 | [다운로드](https://benelog.github.io/presentations/20101113-springone2gx/slides.pdf) |
 | 2010.08.14 | [Effective & Agile Java](https://benelog.github.io/presentations/20100814-effective-agile-java/) | 소프트웨어 마에스트로 멘토링 | [다운로드](https://benelog.github.io/presentations/20100814-effective-agile-java/slides.pdf) |
 | 2010.05.29 | [웹 프레임워크의 Web tier 처리방식과 Spring MVC](https://benelog.github.io/presentations/20100529-spring-mvc/) | KSUG(한국 스프링 사용자 모임) 세미나 | [다운로드](https://benelog.github.io/presentations/20100529-spring-mvc/slides.pdf) |
-| 2010.02.20 | [Spring Roo와 함께 하는 쾌속 웹개발](https://benelog.github.io/presentations/20100220-spring-roo/) | KSUG(한국 스프링 사용자 모임) 세미나 | [다운로드](https://benelog.github.io/presentations/20100220-spring-roo/slides.pdf) |
+| 2010.02.20 | [Spring Roo와 함께 하는 쾌속 웹개발](https://benelog.github.io/presentations/20100220-spring-roo/) | [공감 세미나](https://blog.outsider.ne.kr/437) | [다운로드](https://benelog.github.io/presentations/20100220-spring-roo/slides.pdf) |
