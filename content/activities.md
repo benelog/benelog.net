@@ -47,3 +47,11 @@ menu:
 | 2022.04.13 | [컴퓨터 프로그래밍과 진로](https://benelog.github.io/presentations/20220413-yonsei-stats-rc101/) | 연세대학교 응용통계학과 신입생 세미나 | [다운로드](https://benelog.github.io/presentations/20220413-yonsei-stats-rc101/slides.pdf) |
 | 2021.09.14 | [네이버 개발자 업무와 기술 플랫폼](https://benelog.github.io/presentations/20210914-yonsei-stats-bk/) | 연세대학교 응용통계학과 대학원생 세미나 | [다운로드](https://benelog.github.io/presentations/20210914-yonsei-stats-bk/slides.pdf) |
 | 2020.05.07 | [엔티티 클래스 설계와 퍼시스턴스 프레임워크](https://benelog.github.io/presentations/20200507-entity-design/) | 우아한형제들(배달의민족) 세미나 | [다운로드](https://benelog.github.io/presentations/20200507-entity-design/slides.pdf) |
+| 2017.11.28 | [HTTP/2 세대의 Java](https://benelog.github.io/presentations/20171128-http2-java/) | - | [다운로드](https://benelog.github.io/presentations/20171128-http2-java/slides.pdf) |
+| 2014.11.27 | [Spring Batch와 함께 하는 TDD](https://benelog.github.io/presentations/20141127-spring-batch-tdd/) | KSUG(한국 스프링 사용자 모임) 세미나 | [다운로드](https://benelog.github.io/presentations/20141127-spring-batch-tdd/slides.pdf) |
+| 2014.06.08 | [스프링 어플리케이션의 문제해결 사례 & 안티 패턴](https://benelog.github.io/presentations/20140608-spring-anti-patterns/) | Spring Camp 2014 | [다운로드](https://benelog.github.io/presentations/20140608-spring-anti-patterns/slides.pdf) |
+| 2012.10.22 | [Open API Client 개발](https://benelog.github.io/presentations/20121022-open-api-client/) | 제4회 NHN 오픈세미나 (NHN 오픈 API 특집) | [다운로드](https://benelog.github.io/presentations/20121022-open-api-client/slides.pdf) |
+| 2010.11.16 | [SpringOne2GX 2010 참석 후기](https://benelog.github.io/presentations/20101116-springone2gx/) | - | [다운로드](https://benelog.github.io/presentations/20101116-springone2gx/slides.pdf) |
+| 2010.08.14 | [Effective & Agile Java](https://benelog.github.io/presentations/20100814-effective-agile-java/) | - | [다운로드](https://benelog.github.io/presentations/20100814-effective-agile-java/slides.pdf) |
+| 2010.05.29 | [웹 프레임워크의 Web tier 처리방식과 Spring MVC](https://benelog.github.io/presentations/20100529-spring-mvc/) | KSUG(한국 스프링 사용자 모임) 세미나 | [다운로드](https://benelog.github.io/presentations/20100529-spring-mvc/slides.pdf) |
+| 2010.02.20 | [Spring Roo와 함께 하는 쾌속 웹개발](https://benelog.github.io/presentations/20100220-spring-roo/) | - | [다운로드](https://benelog.github.io/presentations/20100220-spring-roo/slides.pdf) |
