@@ -7,6 +7,7 @@ newContentEditor = "nvim"
 paginate = 4
 
 [params]
-  author = "정상혁"
+  author = "정상혁"           # 푸터의 저작권 표시에 쓴다
   siteHeading = "benelog.net" # defaults to author
+  siteTagline = "프로그래머 정상혁의 홈페이지" # 머리말에서 사이트 이름 뒤에 붙는 설명
   githubUser = "benelog"      # 머리말과 푸터의 GitHub 링크에 쓴다

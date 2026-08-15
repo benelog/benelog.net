@@ -1,7 +1,7 @@
 {{- /* 테마 header.html 오버라이드.
 
        GitHub 저장소 페이지의 머리말 구조를 따른다.
-         1행: "소유자 / 저장소" 형태의 사이트 이름과 GitHub 버튼
+         1행: "사이트 이름 : 설명" 형태의 사이트 이름과 GitHub 버튼
          2행: 탭 메뉴. 현재 탭은 아래쪽 주황 선으로 표시한다.
 
        테마 원본에는 하위 메뉴(드롭다운) 처리가 들어 있지만
@@ -10,9 +10,12 @@
 <header class="site-header">
     <div class="site-header-inner">
         <a class="site-id" href="{{ .Site.Home.RelPermalink }}">
-            <span class="site-id-owner">{{ .Site.Params.author }}</span>
-            <span class="site-id-sep">/</span>
             <span class="site-id-name">{{ default .Site.Params.author .Site.Params.siteHeading }}</span>
+            {{- with .Site.Params.siteTagline }}
+            {{- /* 사이트 이름과 설명 사이의 ':' 은 장식이라 CSS에서 넣는다.
+                   좁은 화면에서 설명이 아랫줄로 내려갈 때 같이 사라져야 한다. */ -}}
+            <span class="site-id-desc">{{ . }}</span>
+            {{- end }}
         </a>
         {{- with .Site.Params.githubUser }}
         <a class="btn" href="https://github.com/{{ . }}" rel="me">GitHub</a>

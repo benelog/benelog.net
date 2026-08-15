@@ -181,18 +181,15 @@ a:focus-visible {
   border-bottom: 1px solid var(--border-default); }
 
 /* 머리말·탭·푸터의 좌측 기준선을 본문과 맞춘다.
-   칸이 많은 표가 있는 페이지(body.wide)에서는 함께 넓어진다. */
+   본문이 넓어지는 페이지(body.wide)에서도 이 폭은 그대로 둔다.
+   사이트 이름과 탭이 탭을 옮길 때마다 좌우로 움직이면 안 되기 때문이다.
+   그래서 오픈소스 기여 페이지에서는 표만 머리말보다 넓게 퍼진다. */
 .site-header-inner,
 .site-nav-inner,
 .site-footer-inner {
   max-width: var(--content-width);
   margin: 0 auto;
   padding: 0 var(--content-gutter); }
-
-body.wide .site-header-inner,
-body.wide .site-nav-inner,
-body.wide .site-footer-inner {
-  max-width: var(--content-width-wide); }
 
 .site-header-inner {
   display: flex;
@@ -201,7 +198,8 @@ body.wide .site-footer-inner {
   padding-top: 1rem;
   padding-bottom: 0.85rem; }
 
-/* '정상혁 / benelog.net'. GitHub의 저장소 이름 표기를 그대로 따랐다. */
+/* 'benelog.net : 프로그래머 정상혁의 홈페이지'.
+   사이트 이름을 앞세우고 설명은 뒤에 옅게 붙인다. */
 .site-id {
   display: flex;
   align-items: baseline;
@@ -214,14 +212,20 @@ body.wide .site-footer-inner {
 .site-id:focus {
   text-decoration: none; }
 
-.site-id-sep {
-  color: var(--fg-subtle);
-  font-weight: 300; }
-
 .site-id-name {
   font-weight: 600;
   letter-spacing: -0.01em; }
 
+.site-id-desc {
+  font-size: 0.875rem;
+  color: var(--fg-muted); }
+
+.site-id-desc::before {
+  content: ":";
+  margin-right: 0.35rem;
+  color: var(--fg-subtle); }
+
+/* 밑줄은 이름에만 긋는다. 설명까지 그으면 한 문장처럼 보인다. */
 .site-id:hover .site-id-name {
   text-decoration: underline; }
 
@@ -594,8 +598,16 @@ main.contributions td:nth-child(5) {
     padding-top: 0.8rem;
     padding-bottom: 0.7rem; }
 
+  /* 이름과 설명을 한 줄에 두면 GitHub 버튼과 부딪히므로 두 줄로 나눈다.
+     줄이 나뉘면 ':' 은 필요 없다. */
   .site-id {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.1rem;
     font-size: 1rem; }
+
+  .site-id-desc::before {
+    content: none; }
 
   main {
     padding-top: 1.5rem;
