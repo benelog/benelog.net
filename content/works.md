@@ -1,12 +1,12 @@
 ---
-title: "저작물"
+title: "저술 및 대외 활동"
 date: 2020-06-01T17:11:12+02:00
 draft: false
 aliases:
   - /activities/
 menu:
   main:
-    name: "저작물"
+    name: "저술 및 대외 활동"
     weight: 7
 ---
 
