@@ -66,3 +66,14 @@ menu:
 | 2010.08.14 | 소프트웨어 마에스트로 멘토링 | [Effective & Agile Java](https://benelog.github.io/presentations/20100814-effective-agile-java/) | [다운로드](https://benelog.github.io/presentations/20100814-effective-agile-java/slides.pdf) |
 | 2010.05.29 | KSUG(한국 스프링 사용자 모임) 세미나 | [웹 프레임워크의 Web tier 처리방식과 Spring MVC](https://benelog.github.io/presentations/20100529-spring-mvc/) | [다운로드](https://benelog.github.io/presentations/20100529-spring-mvc/slides.pdf) |
 | 2010.02.20 | [공감 세미나](https://blog.outsider.ne.kr/437) | [Spring Roo와 함께 하는 쾌속 웹개발](https://benelog.github.io/presentations/20100220-spring-roo/) | [다운로드](https://benelog.github.io/presentations/20100220-spring-roo/slides.pdf) |
+
+## 특허
+
+네이버 재직 중 직무발명으로 출원한 특허이며, 모두 공동 발명입니다. 출원번호를 클릭하면 KIPRIS의 상세 정보 페이지로 연결됩니다.
+
+| 출원일 | 발명의 명칭 | 출원번호 | 상태 | 공보(PDF) |
+|--------|-------------|----------|------|-----------|
+| 2025.06.19 | 대기표 관리 방법 및 시스템 | [10-2025-0080927](https://doi.org/10.8080/1020250080927) | 공개 (공개번호 10-2025-0094653, 2025.06.25) · 10-2022-0170102의 분할출원 | [다운로드](/patents/1020250080927A.pdf) |
+| 2023.01.03 | 접속 관리 방법 및 시스템 | [10-2023-0000766](https://doi.org/10.8080/1020230000766) | 등록 (등록번호 10-2857677, 2025.09.04) | [다운로드](/patents/1020230000766B1.pdf) |
+| 2022.12.20 | 접속 관리 방법 및 시스템 | [10-2022-0179473](https://doi.org/10.8080/1020220179473) | 등록 (등록번호 10-2936700, 2026.03.04) | [다운로드](/patents/1020220179473B1.pdf) |
+| 2022.12.07 | 대기표 관리 방법 및 시스템 | [10-2022-0170102](https://doi.org/10.8080/1020220170102) | 등록 (등록번호 10-2874556, 2025.10.17) | [다운로드](/patents/1020220170102B1.pdf) |
