@@ -2,7 +2,7 @@
 title: "오픈소스 기여"
 date: 2026-07-19T09:00:00+09:00
 draft: false
-pageclass: "wide"
+pageclass: "wide contributions"
 menu:
   main:
     name: "오픈소스 기여"
