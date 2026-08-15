@@ -14,9 +14,9 @@ menu:
 
 모두 공동 저서입니다.
 
-- [소프트웨어 품질관리](https://www.yes24.com/Product/Goods/4123411) (Tech@NHN 시리즈, 위키북스, 2010) : NHN의 품질 혁신 활동(Quality Practice) 경험을 정리한 책
-- [NHN 오픈 API를 활용한 매시업](https://www.yes24.com/Product/Goods/7485386) (Tech@NHN 시리즈, 위키북스, 2012) : NHN 오픈 API의 활용법을 다룬 책
 - [네이버를 만든 기술, 읽으면서 배운다 - 자바편](https://www.yes24.com/Product/Goods/16813496) (TECH@NAVER 시리즈, 위키북스, 2015) : 네이버 기술 블로그(Hello world)의 자바 관련 글을 엮은 책
+- [NHN 오픈 API를 활용한 매시업](https://www.yes24.com/Product/Goods/7485386) (Tech@NHN 시리즈, 위키북스, 2012) : NHN 오픈 API의 활용법을 다룬 책
+- [소프트웨어 품질관리](https://www.yes24.com/Product/Goods/4123411) (Tech@NHN 시리즈, 위키북스, 2010) : NHN의 품질 혁신 활동(Quality Practice) 경험을 정리한 책
 
 ## 기고
 
@@ -38,6 +38,7 @@ menu:
 - [데이터베이스 테스트 기법과 Coverage4iBatis](https://d2.naver.com/helloworld/1255) (2011.12)
 
 ### 월간 마이크로소프트웨어
+IT 전문 잡지 마이크로소프트웨어에 기고한 기사들입니다.
 
 - (2008년 7월호 ~ 11월호) 연재 '스프링 배치로 전수받는 배치 프로그래밍의 비급'
     - 7월호 : 배치처리의 특징과 스프링배치
