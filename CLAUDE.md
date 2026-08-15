@@ -1,6 +1,6 @@
-# content 디렉터리 작성 규칙
+# 저장소 작성 규칙
 
-## opensource.md - 오픈소스 기여 목록
+## content/opensource.md - 오픈소스 기여 목록
 
 다음 소유자의 저장소에 한 기여는 표에 넣지 않는다.
 
