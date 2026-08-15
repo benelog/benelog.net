@@ -23,9 +23,11 @@ menu:
 * https://diary.benelog.net : 여가 활동 일기
 * https://me2day.benelog.net : 미투데이 (아키이빙)
 
+## 오픈소스 저장소
+* https://github.com/benelog
+
 ## SNS 개인 계정
 * https://facebook.com/benelog : 프로그래밍 관련 이야기
-* https://github.com/benelog : 개인 프로젝트 소스 저장소
 * https://story.kakao.com/benelog : 가족 사진
 * https://blog.naver.com/benelog : 일상 메모
 * https://www.threads.com/@sanghyuk_jung : 일상 메모
