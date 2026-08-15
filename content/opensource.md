@@ -9,7 +9,7 @@ menu:
     weight: 6
 ---
 
-외부 오픈소스 프로젝트에 Pull Request(또는 Gerrit CL)로 기여한 내역입니다. 총 74건입니다.
+외부 오픈소스 프로젝트에 Pull Request, Gerrit CL, 메일로 보낸 패치로 기여한 내역입니다. 총 74건입니다.
 
 | 기여 성격 | 건수 | | 기여 결과 | 건수 |
 |---|---:|---|---|---:|
@@ -19,7 +19,7 @@ menu:
 | 문서 개선 | 1 | | 진행 중 | 20 |
 | **합계** | **74** | | **합계** | **74** |
 
-| 기여일자 | Pull request / CL | PR 설명 | 기여 성격 | 기여 결과 | 반영 방식 |
+| 기여일자 | 코드 변경 | 변경 설명 | 기여 성격 | 기여 결과 | 반영 방식 |
 |---|---|---|---|---|---|
 | 2026-08-09 | [spring-batch#5488](https://github.com/spring-projects/spring-batch/pull/5488) | ResourcesItemReader를 설정하는 ResourcesItemReaderBuilder 추가 (파일 패턴 지정 지원) | 기능 개선 | 진행 중 | 리뷰 대기 |
 | 2026-08-04 | [rust#160508](https://github.com/rust-lang/rust/pull/160508) | 컴파일러 주석과 테스트 코드의 중복 단어 표기 수정 ("the the" -> "the", "for for" -> "for") | 문서 오류 | 기각 | 내부 문서의 오탈자만 고치는 기여는 받지 않는 프로젝트 정책 |
@@ -89,7 +89,7 @@ menu:
 | 2016-05-25 | [spring-framework#1065](https://github.com/spring-projects/spring-framework/pull/1065) | TableMetaDataContext 필드 주석 오류 수정 | 문서 오류 | 반영 | 메인테이너 커밋 |
 | 2016-04-23 | [spring-simplejdbcupdate#3](https://github.com/florentp/spring-simplejdbcupdate/pull/3) | Spring 4.2.x 의존성 업그레이드 | 기능 개선 | 반영 | merge |
 | 2014-02-13 | [spring-batch#277](https://github.com/spring-projects/spring-batch/pull/277) | DatabaseType에 없는 DBMS를 지원하도록 확장 포인트 제안 | 기능 개선 | 참고 | 메인테이너가 대안 구현 (lobType 직접 주입) |
-| 2014 | [tz#9](https://github.com/eggert/tz/pull/9) | 타임존 데이터 수정 | 버그 수정 | 반영 | 메일 소통 |
+| 2014 | [tz@929c14a](https://github.com/eggert/tz/commit/929c14a3d8ce505a9b8fb7099bee3a03ccf7e8e4) | 타임존 데이터 수정 | 버그 수정 | 반영 | 메일 소통 |
 | 2013-12-04 | [robolectric#861](https://github.com/robolectric/robolectric/pull/861) | ShadowProcess 기본 구현 추가 | 기능 개선 | 반영 | merge |
 | 2013-11-26 | [robolectric#853](https://github.com/robolectric/robolectric/pull/853) | ShadowCookieManager를 CookieStore 기반으로 재구현 | 기능 개선 | 반영 | merge |
 | 2013-11-01 | [robolectric#804](https://github.com/robolectric/robolectric/pull/804) | ShadowCookieManager의 Javadoc 오타 수정 | 문서 오류 | 반영 | merge |
