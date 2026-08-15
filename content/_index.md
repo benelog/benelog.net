@@ -10,6 +10,11 @@ menu:
 
 프로그래머 정상혁의 사이트
 
+## 이 사이트의 페이지
+* [경력](/career/) : 주요 기술과 프로젝트 이력
+* [오픈소스 기여](/opensource/) : 외부 오픈소스 프로젝트에 기여한 내역
+* [저술 및 대외 활동](/works/) : 저서, 기고, 발표, 특허
+
 ## benelog.net 의 사이트
 * https://blog.benelog.net : S/W 개발에 대한 블로그
 * https://bookshelf-it.benelog.net : IT 독서 메모
