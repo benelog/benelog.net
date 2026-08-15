@@ -6,20 +6,64 @@
    이 파일은 테마의 styles.css 다음에 로드되므로,
    선택자 특정도가 같으면 여기 정의가 이긴다.
    (테마는 git submodule이라 직접 고치지 않는다)
+
+   목차
+     1. 색·글꼴 토큰 (라이트/다크)
+     2. 기본 타이포그래피
+     3. 머리말 (사이트 이름 + 탭 메뉴)
+     4. 본문 컨테이너와 제목
+     5. 구분선, 인용, 코드
+     6. 표
+     7. 라벨과 PR 상태 배지 (오픈소스 기여 표)
+     8. 푸터
+     9. 좁은 화면
+   ========================================================= */
+
+/* =========================================================
+   1. 색·글꼴 토큰
+
+   색 이름은 GitHub Primer의 것을 그대로 따왔다.
+   테마가 색을 하드코딩해 둔 곳이 많아서, 다크 모드가 성립하려면
+   본문·제목·표·코드의 색을 여기서 모두 토큰으로 덮어야 한다.
    ========================================================= */
 
 :root {
-  /* 색 이름은 GitHub Primer(라이트 모드)의 것을 그대로 따왔다. */
+  color-scheme: light dark;
+
   --fg-default: #1f2328;
   --fg-muted: #59636e;
   --fg-subtle: #818b98;
+  --fg-on-emphasis: #ffffff;
+
   --canvas-default: #ffffff;
   --canvas-subtle: #f6f8fa;
   --canvas-inset: #f0f3f6;
+
   --border-default: #d1d9e0;
   --border-muted: #e4e8ed;
+
   --accent-fg: #0969da;
   --accent-underline: #fd8c73; /* GitHub에서 현재 탭을 표시하는 주황 */
+
+  /* Pull Request 상태 색. 오픈소스 기여 표의 '기여 결과' 칸에 쓴다. */
+  --state-merged: #8250df;  /* merged  */
+  --state-open: #1f883d;    /* open    */
+  --state-closed: #cf222e;  /* closed  */
+  --state-neutral: #59636e; /* 그 외   */
+
+  /* 이슈 라벨 색. '기여 성격' 칸에 쓴다. */
+  --label-bug-fg: #cf222e;
+  --label-bug-bg: #ffebe9;
+  --label-bug-border: rgba(207, 34, 46, 0.3);
+  --label-enh-fg: #0550ae;
+  --label-enh-bg: #ddf4ff;
+  --label-enh-border: rgba(9, 105, 218, 0.3);
+  --label-docs-error-fg: #7d4e00;
+  --label-docs-error-bg: #fff8c5;
+  --label-docs-error-border: rgba(212, 167, 44, 0.4);
+  --label-docs-fg: #59636e;
+  --label-docs-bg: #f6f8fa;
+  --label-docs-border: rgba(129, 139, 152, 0.4);
 
   /* 라틴 문자와 한글을 한 벌로 덮는 시스템 산세리프.
      테마 기본값(FreeSerif)은 라틴만 커버해서 한 줄 안에서
@@ -34,16 +78,57 @@
   /* 본문 컨테이너 폭. 화면이 넓어져도 글줄이 무한정 길어지지 않게 한다. */
   --content-width: 62rem;      /* 992px, GitHub 저장소 화면과 비슷한 폭 */
   --content-width-wide: 82rem; /* 1312px, pageclass: wide 인 페이지 */
+  --content-gutter: 1.5rem;
+}
+
+/* 운영체제 설정이 다크일 때. 토큰만 바꾸고 나머지 규칙은 그대로 쓴다. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg-default: #f0f6fc;
+    --fg-muted: #9198a1;
+    --fg-subtle: #6e7681;
+
+    --canvas-default: #0d1117;
+    --canvas-subtle: #151b23;
+    --canvas-inset: #010409;
+
+    --border-default: #3d444d;
+    --border-muted: #262c36;
+
+    --accent-fg: #4493f8;
+    --accent-underline: #f78166;
+
+    --state-merged: #8957e5;
+    --state-open: #238636;
+    --state-closed: #da3633;
+    --state-neutral: #6e7681;
+
+    --label-bug-fg: #ff8182;
+    --label-bug-bg: rgba(248, 81, 73, 0.15);
+    --label-bug-border: rgba(248, 81, 73, 0.4);
+    --label-enh-fg: #79c0ff;
+    --label-enh-bg: rgba(56, 139, 253, 0.15);
+    --label-enh-border: rgba(56, 139, 253, 0.4);
+    --label-docs-error-fg: #e3b341;
+    --label-docs-error-bg: rgba(187, 128, 9, 0.15);
+    --label-docs-error-border: rgba(187, 128, 9, 0.4);
+    --label-docs-fg: #9198a1;
+    --label-docs-bg: rgba(110, 118, 129, 0.15);
+    --label-docs-border: rgba(110, 118, 129, 0.4);
+  }
 }
 
 /* =========================================================
-   기본 타이포그래피
+   2. 기본 타이포그래피
    ========================================================= */
 
 /* 테마는 화면이 커질수록 본문을 1.21em -> 1.76em까지 키운다.
    글자만 커지고 여백 비율은 그대로라 표가 한 화면에 안 들어왔다.
    기준 크기를 16px로 고정하고, 아주 큰 화면에서만 한 단계 키운다. */
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: var(--font-sans);
   font-size: 16px;
   line-height: 1.6;
@@ -54,9 +139,16 @@ body {
 @media (min-width: 100em) {
   body { font-size: 17px; } }
 
+/* 내용이 짧은 페이지에서도 푸터가 화면 아래에 붙게 한다. */
+#content {
+  flex: 1 0 auto; }
+
 a, p, li, strong, em, th, td, blockquote, cite,
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-sans); }
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--fg-default); }
 
 code, kbd, pre, pre code {
   font-family: var(--font-mono); }
@@ -70,106 +162,143 @@ a:hover,
 a:focus {
   text-decoration: underline; }
 
+/* 키보드로 이동할 때 현재 위치가 보이게 한다. */
+a:focus-visible {
+  outline: 2px solid var(--accent-fg);
+  outline-offset: 2px;
+  border-radius: 6px; }
+
 /* =========================================================
-   헤더 (사이트 이름 + 메뉴)
+   3. 머리말
+
+   GitHub 저장소 페이지처럼 '소유자 / 저장소' 줄 아래에 탭 줄을 둔다.
+   탭의 강조선이 머리말 아래 경계선 위에 겹쳐 놓이도록 1px 끌어올린다.
+   구조는 layouts/partials/header.html 참고.
    ========================================================= */
 
-/* 테마 헤더는 nav에 overflow: hidden과 좌우 % 여백이 걸려 있어서
-   메뉴 항목이 많아지면 오른쪽 끝이 잘렸다.
-   GitHub 상단바처럼 화면 전체 폭을 쓰고, 넘치면 줄을 바꾸게 한다. */
-.page-header {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  gap: 0.35rem 1.5rem;
-  margin: 0;
-  padding: 0.8rem 1.5rem;
-  text-align: left;
+.site-header {
   background-color: var(--canvas-subtle);
   border-bottom: 1px solid var(--border-default); }
 
-.myname {
-  margin: 0 auto 0 0;
-  padding: 0;
-  font-size: 1.05rem; }
+/* 머리말·탭·푸터의 좌측 기준선을 본문과 맞춘다.
+   칸이 많은 표가 있는 페이지(body.wide)에서는 함께 넓어진다. */
+.site-header-inner,
+.site-nav-inner,
+.site-footer-inner {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 var(--content-gutter); }
 
-.myname h2 {
-  margin: 0;
-  font-size: inherit; }
+body.wide .site-header-inner,
+body.wide .site-nav-inner,
+body.wide .site-footer-inner {
+  max-width: var(--content-width-wide); }
 
-.myname a {
-  font-family: var(--font-sans);
-  font-style: normal;
-  font-weight: 600;
-  color: var(--fg-default);
-  letter-spacing: -0.01em; }
-
-nav {
+.site-header-inner {
   display: flex;
-  justify-content: flex-end;
-  margin: 0;
-  padding: 0;
-  overflow: visible; }
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 0.85rem; }
 
-nav ul {
+/* '정상혁 / benelog.net'. GitHub의 저장소 이름 표기를 그대로 따랐다. */
+.site-id {
   display: flex;
-  flex-flow: row wrap;
-  gap: 0.1rem;
-  margin: 0;
-  padding: 0;
-  list-style: none; }
+  align-items: baseline;
+  gap: 0.35rem;
+  margin-right: auto;
+  font-size: 1.125rem;
+  color: var(--accent-fg); }
 
-nav li {
-  float: none;
-  border: none;
-  background-color: transparent; }
-
-nav a {
-  display: block;
-  padding: 0.35rem 0.7rem;
-  font-family: var(--font-sans);
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--fg-muted);
-  border-radius: 6px; }
-
-nav li:hover {
-  border-color: transparent; }
-
-nav li:hover > a {
-  color: var(--fg-default);
-  background-color: rgba(31, 35, 40, 0.06);
+.site-id:hover,
+.site-id:focus {
   text-decoration: none; }
 
-/* 현재 보고 있는 메뉴: 진한 회색 블록 대신
-   GitHub 탭처럼 굵은 글씨 + 아래쪽 강조선으로 표시한다. */
-.dropdown.activetab, .activetab, li.activetab {
-  background-color: transparent;
-  border-color: transparent; }
+.site-id-sep {
+  color: var(--fg-subtle);
+  font-weight: 300; }
 
-.activetab > a, a.activetab {
-  color: var(--fg-default);
+.site-id-name {
   font-weight: 600;
-  background-color: transparent;
-  box-shadow: inset 0 -2px 0 0 var(--accent-underline); }
+  letter-spacing: -0.01em; }
 
-.sub-menu a:hover {
+.site-id:hover .site-id-name {
+  text-decoration: underline; }
+
+/* GitHub의 옅은 회색 버튼. */
+.btn {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  white-space: nowrap;
+  color: var(--fg-default);
+  background-color: var(--canvas-default);
+  border: 1px solid var(--border-default);
+  border-radius: 6px; }
+
+.btn:hover,
+.btn:focus {
   background-color: var(--canvas-inset);
-  color: var(--fg-default); }
+  text-decoration: none; }
+
+/* 탭 줄. 테마의 nav 규칙(float, overflow: hidden, % 여백)을 모두 되돌린다.
+   좁은 화면에서는 잘리는 대신 가로로 밀린다. */
+.site-nav {
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none; }
+
+.site-nav::-webkit-scrollbar {
+  display: none; }
+
+.site-nav-inner {
+  display: flex;
+  gap: 0.25rem;
+  margin: 0;
+  list-style: none; }
+
+.site-nav li {
+  float: none;
+  display: block;
+  margin: 0 0 -1px;
+  padding: 0;
+  border: 0;
+  background-color: transparent; }
+
+.site-nav a {
+  display: block;
+  padding: 0.4rem 0.75rem 0.7rem;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  white-space: nowrap;
+  color: var(--fg-default);
+  border-bottom: 2px solid transparent; }
+
+.site-nav a:hover {
+  border-bottom-color: var(--border-default);
+  text-decoration: none; }
+
+/* 현재 보고 있는 탭. */
+.site-nav a.is-current {
+  font-weight: 600;
+  border-bottom-color: var(--accent-underline); }
 
 /* =========================================================
-   본문 컨테이너
+   4. 본문 컨테이너와 제목
 
    테마는 main에 좌우 15~27% 여백을 줘서 화면이 넓을수록
    본문 폭이 오히려 좁아졌다. 가운데 정렬 + 최대 폭으로 바꾼다.
-   표가 본문보다 왼쪽으로 튀어나오던 문제도 여기서 함께 없앤다.
    ========================================================= */
 
 main {
   display: block;
   max-width: var(--content-width);
   margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
+  padding: 2rem var(--content-gutter) 3rem;
   background-color: var(--canvas-default);
   line-height: 1.7;
   word-break: keep-all;
@@ -200,21 +329,18 @@ main li > ul,
 main li > ol {
   margin: 0.25rem 0; }
 
-/* =========================================================
-   제목
-   ========================================================= */
-
-/* 페이지 제목은 가운데 정렬 대신 본문과 같은 왼쪽 기준선에 맞춘다. */
-main .page-title,
-main .page-title.blog {
+/* 제목은 가운데 정렬 대신 본문과 같은 왼쪽 기준선에 맞춘다.
+   GitHub의 마크다운 문서처럼 h1과 h2에는 아래 경계선을 둔다. */
+main .page-title {
   text-align: left;
-  font-size: 1.75rem;
+  font-size: 1.85rem;
   font-weight: 600;
   line-height: 1.3;
   letter-spacing: -0.01em;
-  margin: 0 0 0.35rem; }
+  margin: 0 0 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--border-muted); }
 
-/* 문단/목록보다 제목이 확실히 두드러지도록 위쪽 여백과 밑줄을 준다. */
 main h2 {
   font-size: 1.3rem;
   font-weight: 600;
@@ -235,14 +361,8 @@ main h4 {
   line-height: 1.4;
   margin: 1.25rem 0 0.4rem; }
 
-/* 제목 바로 아래에 붙는 날짜 줄은 배경 텍스트로 물러나게 한다. */
-.blog-post-info {
-  margin: 0 0 1.25rem;
-  font-size: 0.85rem;
-  color: var(--fg-muted); }
-
 /* =========================================================
-   구분선, 인용, 코드
+   5. 구분선, 인용, 코드
    ========================================================= */
 
 main hr {
@@ -262,13 +382,15 @@ code, kbd {
   padding: 0.15em 0.4em;
   font-size: 0.875em;
   color: var(--fg-default);
-  background-color: rgba(129, 139, 152, 0.12);
+  background-color: rgba(129, 139, 152, 0.15);
   border-radius: 6px; }
 
 pre {
   padding: 1rem;
   overflow-x: auto;
+  color: var(--fg-default);
   background-color: var(--canvas-subtle);
+  border: 1px solid var(--border-muted);
   border-radius: 6px; }
 
 pre code {
@@ -276,7 +398,7 @@ pre code {
   background-color: transparent; }
 
 /* =========================================================
-   표
+   6. 표
 
    좌측 시작점이 본문과 같아야 해서 음수 마진을 쓰지 않는다.
    폭이 모자라면 표 자신만 가로로 스크롤된다.
@@ -301,11 +423,22 @@ main td {
   padding: 0.5rem 0.85rem;
   text-align: left;
   vertical-align: top;
+  color: var(--fg-default);
   border: 1px solid var(--border-default); }
+
+/* 마크다운에 지정한 열 정렬을 되살린다.
+   Netlify가 쓰는 Hugo 0.68은 정렬을 style이 아니라 align 속성으로 내보내는데,
+   속성은 CSS보다 우선순위가 낮아서 위의 text-align: left에 덮여 버린다. */
+main th[align="right"],
+main td[align="right"] {
+  text-align: right; }
+
+main th[align="center"],
+main td[align="center"] {
+  text-align: center; }
 
 main thead th {
   font-weight: 600;
-  color: var(--fg-default);
   white-space: nowrap;
   background-color: var(--canvas-subtle); }
 
@@ -326,36 +459,149 @@ main td:empty {
   main:not(.wide) td:last-child {
     white-space: nowrap; } }
 
-/* 오픈소스 기여 표(pageclass: "wide contributions"):
-   날짜와 짧은 분류 칸만 줄바꿈을 막고, 설명 칸이 남는 폭을 쓰게 해서
-   가로 스크롤 없이 한 화면에 들어오게 한다. */
+/* ---------------------------------------------------------
+   오픈소스 기여 페이지(pageclass: "wide contributions")
+
+   문서에 표가 두 개 있다.
+     1번째: 건수 요약표. 배지의 범례 역할을 하므로 내용만큼만 넓힌다.
+     2번째: 기여 목록. 남는 폭을 '변경 설명' 칸이 쓰게 한다.
+   --------------------------------------------------------- */
+
 main.contributions table {
   font-size: 0.8125rem; }
 
-main.contributions td:nth-child(1) {
+main.contributions article > table:first-of-type {
+  width: max-content;
+  max-width: 100%; }
+
+main.contributions article > table:first-of-type td {
   white-space: nowrap; }
 
-@media (min-width: 64em) {
-  main.contributions td:nth-child(4),
-  main.contributions td:nth-child(5) {
-    white-space: nowrap; } }
+/* 기여일자와 저장소·PR 번호는 GitHub의 커밋 목록처럼 고정폭 글꼴로 둔다.
+   숫자 자릿수가 맞아서 세로로 훑어보기 쉽다. */
+main.contributions article > table:last-of-type td:nth-child(1),
+main.contributions article > table:last-of-type td:nth-child(2) {
+  font-family: var(--font-mono);
+  font-size: 0.925em; }
+
+main.contributions article > table:last-of-type td:nth-child(1) {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  color: var(--fg-muted); }
+
+/* 배지가 들어가는 칸은 줄바꿈 없이 내용만큼만 차지하게 한다. */
+main.contributions td:nth-child(4),
+main.contributions td:nth-child(5) {
+  width: 1%;
+  white-space: nowrap; }
 
 /* =========================================================
-   좁은 화면
+   7. 라벨과 PR 상태 배지
+
+   '기여 성격'은 GitHub 이슈 라벨(연한 바탕 + 같은 색 글자)로,
+   '기여 결과'는 Pull Request 상태 배지(단색 바탕 + 흰 글자)로 구분한다.
+   서로 다른 종류의 정보라서 모양도 다르게 두었다.
+   감싸는 span은 layouts/_default/single.html에서 넣는다.
+   ========================================================= */
+
+.label,
+.state {
+  display: inline-block;
+  padding: 0 0.7em;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.55;
+  white-space: nowrap;
+  border-radius: 2em; }
+
+.label {
+  border: 1px solid transparent; }
+
+.label-bug {
+  color: var(--label-bug-fg);
+  background-color: var(--label-bug-bg);
+  border-color: var(--label-bug-border); }
+
+.label-enhancement {
+  color: var(--label-enh-fg);
+  background-color: var(--label-enh-bg);
+  border-color: var(--label-enh-border); }
+
+.label-docs-error {
+  color: var(--label-docs-error-fg);
+  background-color: var(--label-docs-error-bg);
+  border-color: var(--label-docs-error-border); }
+
+.label-docs {
+  color: var(--label-docs-fg);
+  background-color: var(--label-docs-bg);
+  border-color: var(--label-docs-border); }
+
+.state {
+  padding: 0.1em 0.75em;
+  color: var(--fg-on-emphasis); }
+
+.state-merged {
+  background-color: var(--state-merged); }
+
+.state-open {
+  background-color: var(--state-open); }
+
+.state-closed {
+  background-color: var(--state-closed); }
+
+.state-referenced {
+  background-color: var(--state-neutral); }
+
+/* =========================================================
+   8. 푸터
+   ========================================================= */
+
+.site-footer {
+  flex: none;
+  border-top: 1px solid var(--border-muted); }
+
+.site-footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 1.25rem;
+  padding-top: 1.1rem;
+  padding-bottom: 2rem;
+  font-size: 0.8125rem;
+  color: var(--fg-muted); }
+
+.site-footer-links {
+  display: flex;
+  gap: 1rem;
+  margin-left: auto; }
+
+.site-footer a {
+  color: var(--fg-muted); }
+
+.site-footer a:hover {
+  color: var(--accent-fg); }
+
+/* =========================================================
+   9. 좁은 화면
    ========================================================= */
 
 @media (max-width: 48em) {
-  .page-header {
-    padding: 0.7rem 1rem; }
+  :root {
+    --content-gutter: 1rem; }
 
-  nav {
-    justify-content: flex-start; }
+  .site-header-inner {
+    padding-top: 0.8rem;
+    padding-bottom: 0.7rem; }
+
+  .site-id {
+    font-size: 1rem; }
 
   main {
-    padding: 1.5rem 1rem 3rem; }
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem; }
 
-  main .page-title,
-  main .page-title.blog {
+  main .page-title {
     font-size: 1.5rem; }
 
   main table {
@@ -363,4 +609,8 @@ main.contributions td:nth-child(1) {
 
   main th,
   main td {
-    padding: 0.45rem 0.6rem; } }
+    padding: 0.45rem 0.6rem; }
+
+  .label,
+  .state {
+    font-size: 0.75rem; } }

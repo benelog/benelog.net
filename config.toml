@@ -9,3 +9,4 @@ paginate = 4
 [params]
   author = "정상혁"
   siteHeading = "benelog.net" # defaults to author
+  githubUser = "benelog"      # 머리말과 푸터의 GitHub 링크에 쓴다

@@ -1,0 +1,13 @@
+{{- /* 본문과 같은 좌측 기준선에 맞춘 얇은 푸터. */ -}}
+<footer class="site-footer">
+    <div class="site-footer-inner">
+        <span class="site-footer-owner">&copy; {{ now.Format "2006" }} {{ .Site.Params.author }}</span>
+        <span class="site-footer-links">
+            <a href="{{ .Site.Home.RelPermalink }}">홈</a>
+            {{- with .Site.Params.githubUser }}
+            <a href="https://github.com/{{ . }}" rel="me">GitHub</a>
+            {{- end }}
+            <a href="{{ "index.xml" | absURL }}">RSS</a>
+        </span>
+    </div>
+</footer>

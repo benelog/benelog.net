@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ko">
+    {{- /* 테마 baseof.html 오버라이드.
+           바꾼 것: html의 lang, front matter의 pageclass를 body 클래스로 전달,
+           맨 아래 푸터 추가. (테마의 footer.html은 닫는 태그만 들어 있어서 쓰지 않는다) */ -}}
+    {{- partial "head.html" . -}}
+    <body{{ with .Params.pageclass }} class="{{ . }}"{{ end }}>
+        {{- partial "header.html" . -}}
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "site-footer.html" . -}}
+    </body>
+</html>

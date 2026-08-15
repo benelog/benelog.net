@@ -1,25 +1,30 @@
 {{ define "main" }}
-    {{- /* 테마의 single.html에 main 요소 클래스 지정(front matter의 pageclass)만 추가한 오버라이드 */ -}}
+    {{- /* 테마 single.html 오버라이드.
+           - main 요소에 front matter의 pageclass를 붙인다.
+           - 오픈소스 기여 표의 '기여 성격'/'기여 결과' 칸을
+             GitHub의 라벨·PR 상태 배지로 감싼다.
+             표를 만드는 마크다운은 그대로 두고 렌더링 결과만 바꾸는 방식이라
+             content/opensource.md에는 계속 평범한 텍스트로 적으면 된다.
+           - 테마가 넣던 'Posted: 날짜' 줄은 뺐다. front matter의 date가
+             문서의 최종 갱신일과 맞지 않아 잘못된 정보를 주고 있었다. */ -}}
     <main{{ with .Params.pageclass }} class="{{ . }}"{{ end }}>
         <article>
-            {{ if in site.Params.mainSections .Page.Section }}
-            <h1 class="page-title blog">{{ .Title }}</h1>
-            {{ else }}
             <h1 class="page-title">{{ .Title }}</h1>
-            {{ end }}
 
-            {{- /* Show post information if it's a post, otherwise just the content */ -}}
-            {{ if in site.Params.mainSections .Page.Section }}
-                <p class="blog-post-info">Posted: <time>{{ .Date.Format "2006-01-02" }}</time>
-                {{ partial "blog-taxonomy-info" . }}</p>
-
-                <div class="blog-post-content">
-                {{ .Content }}
-                </div>
-                {{ template "_internal/disqus.html" . }}
-            {{ else }}
-                {{ .Content }}
-            {{ end }}
+            {{- $body := .Content -}}
+            {{- if in (default "" .Params.pageclass) "contributions" -}}
+                {{- /* 기여 성격 -> GitHub 이슈 라벨 */ -}}
+                {{- $body = $body | replaceRE `<td>버그 수정</td>` `<td><span class="label label-bug">버그 수정</span></td>` -}}
+                {{- $body = $body | replaceRE `<td>기능 개선</td>` `<td><span class="label label-enhancement">기능 개선</span></td>` -}}
+                {{- $body = $body | replaceRE `<td>문서 오류</td>` `<td><span class="label label-docs-error">문서 오류</span></td>` -}}
+                {{- $body = $body | replaceRE `<td>문서 개선</td>` `<td><span class="label label-docs">문서 개선</span></td>` -}}
+                {{- /* 기여 결과 -> GitHub Pull Request 상태 배지 */ -}}
+                {{- $body = $body | replaceRE `<td>반영</td>` `<td><span class="state state-merged">반영</span></td>` -}}
+                {{- $body = $body | replaceRE `<td>진행 중</td>` `<td><span class="state state-open">진행 중</span></td>` -}}
+                {{- $body = $body | replaceRE `<td>기각</td>` `<td><span class="state state-closed">기각</span></td>` -}}
+                {{- $body = $body | replaceRE `<td>참고</td>` `<td><span class="state state-referenced">참고</span></td>` -}}
+            {{- end }}
+            {{ $body | safeHTML }}
         </article>
     </main>
 {{ end }}
