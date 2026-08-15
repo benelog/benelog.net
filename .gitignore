@@ -2,4 +2,5 @@ public/
 .idea/
 resources/_gen/
 .hugo_build.lock
+.mcp.json
 
