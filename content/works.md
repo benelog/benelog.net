@@ -1,10 +1,12 @@
 ---
-title: "기술 공유"
+title: "저작과 특허"
 date: 2020-06-01T17:11:12+02:00
 draft: false
+aliases:
+  - /activities/
 menu:
   main:
-    name: "기술 공유"
+    name: "저작과 특허"
     weight: 7
 ---
 
