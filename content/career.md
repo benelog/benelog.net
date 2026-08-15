@@ -1,10 +1,12 @@
 ---
-title: "이력서"
+title: "경력"
 date: 2020-06-01T17:11:12+02:00
 draft: false
+aliases:
+  - /resume/
 menu:
   main:
-    name: "이력서"
+    name: "경력"
     weight: 5
 ---
 
