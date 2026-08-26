@@ -13,10 +13,10 @@ menu:
 
 | 기여 성격 | 건수 | | 기여 결과 | 건수 |
 |---|---:|---|---|---:|
-| 버그 수정 | 14 | | 반영 | 48 |
+| 버그 수정 | 14 | | 반영 | 52 |
 | 기능 개선 | 17 | | 참고 | 3 |
 | 문서 오류 | 42 | | 기각 | 5 |
-| 문서 개선 | 1 | | 진행 중 | 18 |
+| 문서 개선 | 1 | | 진행 중 | 14 |
 | **합계** | **74** | | **합계** | **74** |
 
 | 기여일자 | 코드 변경 | 변경 설명 | 기여 성격 | 기여 결과 | 반영 방식 |
@@ -28,8 +28,8 @@ menu:
 | 2026-08-04 | [vscode#328961](https://github.com/microsoft/vscode/pull/328961) | Copilot 프롬프트 텍스트의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge (v1.134.0) |
 | 2026-08-04 | [golang/go CL 810180](https://go-review.googlesource.com/c/go/+/810180) | 문서와 테스트 데이터의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge |
 | 2026-08-04 | [golang/tools CL 810200](https://go-review.googlesource.com/c/tools/+/810200) | 패키지 주석의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge |
-| 2026-08-04 | [spring-batch#5476](https://github.com/spring-projects/spring-batch/pull/5476) | 참조 문서의 분산 추적 예시가 스팬을 만들지 않는 핸들러를 안내하는 문제 수정 | 문서 오류 | 진행 중 | 리뷰 대기 |
-| 2026-07-28 | [spring-batch#5469](https://github.com/spring-projects/spring-batch/pull/5469) | @OnChunkError 애노테이션이 StepListenerMetaData에 없어 리스너로 등록되지 않는 문제 수정 | 버그 수정 | 진행 중 | 리뷰 대기 |
+| 2026-08-04 | [spring-batch#5476](https://github.com/spring-projects/spring-batch/pull/5476) | 참조 문서의 분산 추적 예시가 스팬을 만들지 않는 핸들러를 안내하는 문제 수정 | 문서 오류 | 반영 | merge (v6.0.6) |
+| 2026-07-28 | [spring-batch#5469](https://github.com/spring-projects/spring-batch/pull/5469) | @OnChunkError 애노테이션이 StepListenerMetaData에 없어 리스너로 등록되지 않는 문제 수정 | 버그 수정 | 반영 | 메인테이너 커밋 (v6.0.6) |
 | 2026-07-26 | [spring-framework#37088](https://github.com/spring-projects/spring-framework/pull/37088) | SQL 주석 안의 이름 있는 파라미터를 인식하는 allowParametersInComments 옵션 추가 | 기능 개선 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-data-relational#2333](https://github.com/spring-projects/spring-data-relational/pull/2333) | @Query 메서드에서 실행 시점에 SQL을 생성하는 QueryProvider SPI 추가 | 기능 개선 | 기각 | 메인테이너가 기능 도입하지 않기로 결정 |
 | 2026-07-25 | [spring-data-examples#714](https://github.com/spring-projects/spring-data-examples/pull/714) | README 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | 메인테이너 커밋 |
@@ -51,8 +51,8 @@ menu:
 | 2026-07-25 | [spring-data-redis#3402](https://github.com/spring-projects/spring-data-redis/pull/3402) | Javadoc과 참조 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | 메인테이너 커밋 (v4.0.7) |
 | 2026-07-25 | [spring-webflow#1852](https://github.com/spring-projects/spring-webflow/pull/1852) | Javadoc, XSD, 참조 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-data-neo4j#3113](https://github.com/spring-projects/spring-data-neo4j/pull/3113) | ADR 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge |
-| 2026-07-22 | [spring-batch#5467](https://github.com/spring-projects/spring-batch/pull/5467) | ChunkOrientedStepBuilder에서 리스너가 중복 등록되는 문제 수정 | 버그 수정 | 진행 중 | 리뷰 대기 |
-| 2026-07-19 | [spring-batch#5464](https://github.com/spring-projects/spring-batch/pull/5464) | 프록시가 적용된 빈에서도 배치 관측 기능이 동작하도록 수정 | 버그 수정 | 진행 중 | 리뷰 대기 |
+| 2026-07-22 | [spring-batch#5467](https://github.com/spring-projects/spring-batch/pull/5467) | ChunkOrientedStepBuilder에서 리스너가 중복 등록되는 문제 수정 | 버그 수정 | 반영 | 메인테이너 커밋 (v6.0.6) |
+| 2026-07-19 | [spring-batch#5464](https://github.com/spring-projects/spring-batch/pull/5464) | 프록시가 적용된 빈에서도 배치 관측 기능이 동작하도록 수정 | 버그 수정 | 반영 | merge (v6.0.6) |
 | 2026-04-10 | [intel/vision-drivers#35](https://github.com/intel/vision-drivers/pull/35) | 펌웨어가 지원하지 않는 장치에 SET_HOST_IDENTIFIER 명령을 보내 초기화가 실패하는 문제 수정 | 버그 수정 | 참고 | 같은 수정을 포함한 다른 기여자의 PR([#38](https://github.com/intel/vision-drivers/pull/38))로 merge |
 | 2025-12-07 | [spring-batch#5140](https://github.com/spring-projects/spring-batch/pull/5140) | ResourcelessJobRepository의 조회 로직 개선과 삭제 연산 추가 | 기능 개선 | 반영 | 메인테이너 커밋 (v6.0.1) |
 | 2025-11-27 | [spring-batch#5116](https://github.com/spring-projects/spring-batch/pull/5116) | MetaDataInstanceFactory에서 JobParameters가 전달되지 않는 문제 수정 | 버그 수정 | 반영 | 메인테이너 커밋 (v6.0.1) |
