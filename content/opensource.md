@@ -36,8 +36,8 @@ menu:
 | 2026-07-25 | [spring-ai-examples#139](https://github.com/spring-projects/spring-ai-examples/pull/139) | 예제 코드 문자열의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-integration-samples#407](https://github.com/spring-projects/spring-integration-samples/pull/407) | README 문서와 Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge |
 | 2026-07-25 | [spring-batch-extensions#217](https://github.com/spring-projects/spring-batch-extensions/pull/217) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge |
-| 2026-07-25 | [spring-credhub#476](https://github.com/spring-projects/spring-credhub/pull/476) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge |
-| 2026-07-25 | [spring-data-elasticsearch#3314](https://github.com/spring-projects/spring-data-elasticsearch/pull/3314) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge |
+| 2026-07-25 | [spring-credhub#476](https://github.com/spring-projects/spring-credhub/pull/476) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge (v4.0.2) |
+| 2026-07-25 | [spring-data-elasticsearch#3314](https://github.com/spring-projects/spring-data-elasticsearch/pull/3314) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge (v6.2.0-M1) |
 | 2026-07-25 | [spring-graphql#1483](https://github.com/spring-projects/spring-graphql/pull/1483) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-ldap#1577](https://github.com/spring-projects/spring-ldap/pull/1577) | Javadoc과 코드 주석의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge |
 | 2026-07-25 | [spring-modulith#1779](https://github.com/spring-projects/spring-modulith/pull/1779) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | 메인테이너 커밋 (1.4.x, 2.0.x, 2.1.x 백포트) |
@@ -50,7 +50,7 @@ menu:
 | 2026-07-25 | [spring-data-cassandra#1664](https://github.com/spring-projects/spring-data-cassandra/pull/1664) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-07-25 | [spring-data-redis#3402](https://github.com/spring-projects/spring-data-redis/pull/3402) | Javadoc과 참조 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | 메인테이너 커밋 (v4.0.7) |
 | 2026-07-25 | [spring-webflow#1852](https://github.com/spring-projects/spring-webflow/pull/1852) | Javadoc, XSD, 참조 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 진행 중 | 리뷰 대기 |
-| 2026-07-25 | [spring-data-neo4j#3113](https://github.com/spring-projects/spring-data-neo4j/pull/3113) | ADR 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge |
+| 2026-07-25 | [spring-data-neo4j#3113](https://github.com/spring-projects/spring-data-neo4j/pull/3113) | ADR 문서의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge (v8.2.0-M1) |
 | 2026-07-22 | [spring-batch#5467](https://github.com/spring-projects/spring-batch/pull/5467) | ChunkOrientedStepBuilder에서 리스너가 중복 등록되는 문제 수정 | 버그 수정 | 반영 | 메인테이너 커밋 (v6.0.6) |
 | 2026-07-19 | [spring-batch#5464](https://github.com/spring-projects/spring-batch/pull/5464) | 프록시가 적용된 빈에서도 배치 관측 기능이 동작하도록 수정 | 버그 수정 | 반영 | merge (v6.0.6) |
 | 2026-04-10 | [intel/vision-drivers#35](https://github.com/intel/vision-drivers/pull/35) | 펌웨어가 지원하지 않는 장치에 SET_HOST_IDENTIFIER 명령을 보내 초기화가 실패하는 문제 수정 | 버그 수정 | 참고 | 같은 수정을 포함한 다른 기여자의 PR([#38](https://github.com/intel/vision-drivers/pull/38))로 merge |
