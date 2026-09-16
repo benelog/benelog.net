@@ -13,15 +13,15 @@ menu:
 
 | 기여 성격 | 건수 | | 기여 결과 | 건수 |
 |---|---:|---|---|---:|
-| 버그 수정 | 14 | | 반영 | 54 |
+| 버그 수정 | 14 | | 반영 | 56 |
 | 기능 개선 | 17 | | 참고 | 3 |
 | 문서 오류 | 42 | | 기각 | 5 |
-| 문서 개선 | 1 | | 진행 중 | 12 |
+| 문서 개선 | 1 | | 진행 중 | 10 |
 | **합계** | **74** | | **합계** | **74** |
 
 | 기여일자 | 코드 변경 | 변경 설명 | 기여 성격 | 기여 결과 | 반영 방식 |
 |---|---|---|---|---|---|
-| 2026-08-09 | [spring-batch#5488](https://github.com/spring-projects/spring-batch/pull/5488) | ResourcesItemReader를 설정하는 ResourcesItemReaderBuilder 추가 (파일 패턴 지정 지원) | 기능 개선 | 진행 중 | 리뷰 대기 |
+| 2026-08-09 | [spring-batch#5488](https://github.com/spring-projects/spring-batch/pull/5488) | ResourcesItemReader를 설정하는 ResourcesItemReaderBuilder 추가 (파일 패턴 지정 지원) | 기능 개선 | 반영 | 메인테이너 커밋 |
 | 2026-08-04 | [rust#160508](https://github.com/rust-lang/rust/pull/160508) | 컴파일러 주석과 테스트 코드의 중복 단어 표기 수정 ("the the" -> "the", "for for" -> "for") | 문서 오류 | 기각 | 내부 문서의 오탈자만 고치는 기여는 받지 않는 프로젝트 정책 |
 | 2026-08-04 | [kotlin#7235](https://github.com/JetBrains/kotlin/pull/7235) | 주석, KDoc, 오류 메시지의 중복 단어 표기 수정 ("the the" -> "the", "for for" -> "for") | 문서 오류 | 진행 중 | 리뷰 승인, merge 대기 |
 | 2026-08-04 | [vscode#328957](https://github.com/microsoft/vscode/pull/328957) | 노트북 셀 툴바 위치 설정 설명의 중복 단어 표기 수정 ("for for" -> "for") | 문서 오류 | 반영 | merge (v1.133.0) |
@@ -56,7 +56,7 @@ menu:
 | 2026-04-10 | [intel/vision-drivers#35](https://github.com/intel/vision-drivers/pull/35) | 펌웨어가 지원하지 않는 장치에 SET_HOST_IDENTIFIER 명령을 보내 초기화가 실패하는 문제 수정 | 버그 수정 | 참고 | 같은 수정을 포함한 다른 기여자의 PR([#38](https://github.com/intel/vision-drivers/pull/38))로 merge |
 | 2025-12-07 | [spring-batch#5140](https://github.com/spring-projects/spring-batch/pull/5140) | ResourcelessJobRepository의 조회 로직 개선과 삭제 연산 추가 | 기능 개선 | 반영 | 메인테이너 커밋 (v6.0.1) |
 | 2025-11-27 | [spring-batch#5116](https://github.com/spring-projects/spring-batch/pull/5116) | MetaDataInstanceFactory에서 JobParameters가 전달되지 않는 문제 수정 | 버그 수정 | 반영 | 메인테이너 커밋 (v6.0.1) |
-| 2025-11-01 | [spring-batch#5071](https://github.com/spring-projects/spring-batch/pull/5071) | MultiResourceItemReaderBuilder에 패턴으로 여러 파일을 지정하는 기능 추가 | 기능 개선 | 진행 중 | 리뷰 대기 |
+| 2025-11-01 | [spring-batch#5071](https://github.com/spring-projects/spring-batch/pull/5071) | MultiResourceItemReaderBuilder에 패턴으로 여러 파일을 지정하는 기능 추가 | 기능 개선 | 반영 | 메인테이너 커밋 |
 | 2025-06-27 | [spring-boot#46228](https://github.com/spring-projects/spring-boot/pull/46228) | spring.batch.job.enabled 프로퍼티의 잘못된 설명 수정 | 문서 오류 | 반영 | 메인테이너 커밋 (v3.4.8) |
 | 2024-08-02 | [spring-framework#33308](https://github.com/spring-projects/spring-framework/pull/33308) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | 메인테이너 커밋 (v6.2.0-M7) |
 | 2024-08-02 | [spring-integration#9364](https://github.com/spring-projects/spring-integration/pull/9364) | Javadoc의 중복 단어 표기 수정 ("the the" -> "the") | 문서 오류 | 반영 | merge (v6.4.0-M2) |
