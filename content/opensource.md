@@ -13,14 +13,16 @@ menu:
 
 | 기여 성격 | 건수 | | 기여 결과 | 건수 |
 |---|---:|---|---|---:|
-| 버그 수정 | 14 | | 반영 | 57 |
-| 기능 개선 | 17 | | 참고 | 3 |
+| 버그 수정 | 15 | | 반영 | 57 |
+| 기능 개선 | 18 | | 참고 | 3 |
 | 문서 오류 | 43 | | 기각 | 5 |
-| 문서 개선 | 1 | | 진행 중 | 10 |
-| **합계** | **75** | | **합계** | **75** |
+| 문서 개선 | 1 | | 진행 중 | 12 |
+| **합계** | **77** | | **합계** | **77** |
 
 | 기여일자 | 코드 변경 | 변경 설명 | 기여 성격 | 기여 결과 | 반영 방식 |
 |---|---|---|---|---|---|
+| 2026-09-24 | [spring-framework#37330](https://github.com/spring-projects/spring-framework/pull/37330) | '-' 또는 '/'로 끝나는 SQL에서 NamedParameterUtils가 ArrayIndexOutOfBoundsException을 던지는 문제 수정 | 버그 수정 | 진행 중 | 리뷰 대기 |
+| 2026-09-24 | [spring-framework#37329](https://github.com/spring-projects/spring-framework/pull/37329) | DataClassRowMapper가 컬럼을 찾을 때 findColumn 예외 대신 ResultSetMetaData를 활용하도록 개선 | 기능 개선 | 진행 중 | 리뷰 대기 |
 | 2026-09-19 | [spring-batch#5550](https://github.com/spring-projects/spring-batch/pull/5550) | 참조 문서 스키마 부록의 인덱스 권고 표가 4.2 이후의 실제 쿼리와 다른 문제 수정 | 문서 오류 | 진행 중 | 리뷰 대기 |
 | 2026-08-09 | [spring-batch#5488](https://github.com/spring-projects/spring-batch/pull/5488) | ResourcesItemReader를 설정하는 ResourcesItemReaderBuilder 추가 (파일 패턴 지정 지원) | 기능 개선 | 반영 | 메인테이너 커밋 |
 | 2026-08-04 | [rust#160508](https://github.com/rust-lang/rust/pull/160508) | 컴파일러 주석과 테스트 코드의 중복 단어 표기 수정 ("the the" -> "the", "for for" -> "for") | 문서 오류 | 기각 | 내부 문서의 오탈자만 고치는 기여는 받지 않는 프로젝트 정책 |
