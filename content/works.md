@@ -68,11 +68,12 @@ IT 전문 잡지 마이크로소프트웨어에 기고한 기사들입니다.
 | 2014.06.08 | Spring Camp 2014 | [스프링 어플리케이션의 문제해결 사례 & 안티 패턴](https://benelog.github.io/presentations/20140608-spring-anti-patterns/) | [다운로드](https://benelog.github.io/presentations/20140608-spring-anti-patterns/slides.pdf) |
 | 2013.07.13 | [제5회 hello world 오픈 세미나](https://d2.naver.com/helloworld/416268) | [Spring 3.0 -> 3.1 -> 3.2 따라잡기](https://benelog.github.io/presentations/20130713-spring-upgrade/) | [다운로드](https://benelog.github.io/presentations/20130713-spring-upgrade/slides.pdf) |
 | 2012.10.22 | [제4회 NHN 오픈세미나 (NHN 오픈 API 특집)](https://d2.naver.com/helloworld/172098) | [Open API Client 개발](https://benelog.github.io/presentations/20121022-open-api-client/) | [다운로드](https://benelog.github.io/presentations/20121022-open-api-client/slides.pdf) |
-| 2011.09.06 | 삼성 SDS 멀티캠퍼스 강의 | [Open API Business 과정](https://benelog.github.io/presentations/20110906-open-api-biz/) | [다운로드](https://benelog.github.io/presentations/20110906-open-api-biz/slides.pdf) |
+| 2011.09.06 | 삼성 SDS 멀티캠퍼스 강의 | [오픈 API 기술의 이해](https://benelog.github.io/presentations/20110906-open-api-tech/) | [다운로드](https://benelog.github.io/presentations/20110906-open-api-tech/slides.pdf) |
 | 2010.11.13 | KSUG(한국 스프링 사용자 모임) 세미나 | [SpringOne2GX 2010 참석 후기](https://benelog.github.io/presentations/20101113-springone2gx/) | [다운로드](https://benelog.github.io/presentations/20101113-springone2gx/slides.pdf) |
 | 2010.08.14 | 소프트웨어 마에스트로 멘토링 | [Effective & Agile Java](https://benelog.github.io/presentations/20100814-effective-agile-java/) | [다운로드](https://benelog.github.io/presentations/20100814-effective-agile-java/slides.pdf) |
 | 2010.05.29 | KSUG(한국 스프링 사용자 모임) 세미나 | [웹 프레임워크의 Web tier 처리방식과 Spring MVC](https://benelog.github.io/presentations/20100529-spring-mvc/) | [다운로드](https://benelog.github.io/presentations/20100529-spring-mvc/slides.pdf) |
 | 2010.02.20 | [공감 세미나](https://blog.outsider.ne.kr/437) | [Spring Roo와 함께 하는 쾌속 웹개발](https://benelog.github.io/presentations/20100220-spring-roo/) | [다운로드](https://benelog.github.io/presentations/20100220-spring-roo/slides.pdf) |
+| 2007.02.10 | [SDS 프레임웍 공부모임](https://wiki.benelog.net/SDS-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8D-%EA%B3%B5%EB%B6%80%EB%AA%A8%EC%9E%84.html) | [유지보수를 힘들게 하는 것들](https://benelog.github.io/presentations/20070210-hard-to-maintain-code/) | [다운로드](https://benelog.github.io/presentations/20070210-hard-to-maintain-code/slides.pdf) |
 
 ## 특허
 
