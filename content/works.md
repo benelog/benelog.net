@@ -24,6 +24,7 @@ menu:
 
 네이버 기술 블로그인 [d2.naver.com](https://d2.naver.com)에 기고한 글입니다.
 
+- [AI 시대의 개발자를 꿈꾸는 학생 개발자에게](https://d2.naver.com/helloworld/1975819) (2026.10)
 - [콘퍼런스 참가 신청 기능 개발기](https://d2.naver.com/helloworld/5048491) (2018.06)
 - [백엔드 개발자를 꿈꾸는 학생개발자에게](https://d2.naver.com/news/3435170) (2018.06)
 - [Commons DBCP 이해하기](https://d2.naver.com/helloworld/5102792) (2015.10)
