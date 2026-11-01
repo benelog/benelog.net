@@ -16,12 +16,33 @@ menu:
 * [저술 및 대외 활동](/works/) : 저서, 기고, 발표, 특허
 
 ## benelog.net 의 사이트
-* https://blog.benelog.net : S/W 개발에 대한 블로그
-* https://bookshelf-it.benelog.net : IT 독서 메모
-* https://devnote.benelog.net : S/W 개발 자료 모음
-* https://wiki.benelog.net : 여러 분야 자료 모음
-* https://diary.benelog.net : 여가 활동 일기
-* https://me2day.benelog.net : 미투데이 (아키이빙)
+* 공유 컨텐츠
+    * https://blog.benelog.net : S/W 개발에 대한 한국어 블로그
+    * https://tech.benelog.net : S/W 개발에 대한 영어 블로그
+    * https://presentations.benelog.net : 발표 자료 모음
+* 오픈소스 문서
+    * https://spider-silk.benelog.net : Jakarta Servlet API 기반의 웹 프레임워크 Spider Silk
+    * https://spider-sense.benelog.net : 로컬 개발용 관측 도구 Spider Sense
+* 개인 기록 관리
+    * https://devnote.benelog.net : S/W 개발 자료 모음
+    * https://bookshelf.benelog.net : 독서 메모
+    * https://bookshelf-it.benelog.net : IT 독서 메모
+    * https://wiki.benelog.net : 여러 분야 자료 모음
+    * https://diary.benelog.net : 여가 활동 일기
+    * https://english.benelog.net : 영어 학습 노트
+    * https://chain.benelog.net : 습관 달력 앱 Habit Chain
+    * https://til.benelog.net : Today I Learned 기록장
+* 학습 도구
+    * https://book-play.benelog.net : 삽화가 있는 영어 책으로 배우는 텍스트 어드벤처
+    * https://flashcard.benelog.net : 카드를 뒤집으며 외우는 학습 앱
+* 게임
+    * https://casual-games.benelog.net : 브라우저 게임 모음
+    * https://sim-office.benelog.net : 미국 소도시의 회사 생활을 다룬 3D 오픈 월드 게임
+* 옛 기록 보관소
+    * https://atdt.benelog.net : 1990년대 PC통신 갈무리 글
+    * https://qb-attic.benelog.net : 옛 QuickBasic 프로그램을 웹으로 다시 구현
+    * https://me2day.benelog.net : 미투데이 (아카이빙)
+    * https://pages.benelog.net : 과거 작성 페이지 모음
 
 ## 오픈소스 저장소
 * https://github.com/benelog
