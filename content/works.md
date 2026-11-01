@@ -10,6 +10,8 @@ menu:
     weight: 7
 ---
 
+이 페이지의 주소 : https://benelog.net/works/
+
 ## 저서
 
 모두 공동 저서입니다.
