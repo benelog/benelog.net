@@ -14,13 +14,37 @@ menu:
 
 ### 단독 저서
 
-- [AI 에이전트와 스프링 배치를 활용한 배치 엔지니어링](https://wikibook.co.kr/spring-batch-with-ai/) (오픈소스 & 웹 시리즈, 위키북스, 2026) : AI 에이전트(클로드 코드, 코덱스)와 함께 스프링 배치로 대용량 배치 처리를 개발하는 방법을 다룬 책
+{{< books layout="featured" >}}
+{{< book
+    title="AI 에이전트와 스프링 배치를 활용한 배치 엔지니어링"
+    url="https://wikibook.co.kr/spring-batch-with-ai/"
+    cover="/books/spring-batch-with-ai.jpg"
+    meta="오픈소스 & 웹 시리즈 · 위키북스 · 2026"
+    desc="AI 에이전트(클로드 코드, 코덱스)와 함께 스프링 배치로 대용량 배치 처리를 개발하는 방법을 다룬 책" >}}
+{{< /books >}}
 
 ### 공동 저서
 
-- [네이버를 만든 기술, 읽으면서 배운다 - 자바편](https://www.yes24.com/Product/Goods/16813496) (TECH@NAVER 시리즈, 위키북스, 2015) : 네이버 기술 블로그(Hello world)의 자바 관련 글을 엮은 책
-- [NHN 오픈 API를 활용한 매시업](https://www.yes24.com/Product/Goods/7485386) (Tech@NHN 시리즈, 위키북스, 2012) : NHN 오픈 API의 활용법을 다룬 책
-- [소프트웨어 품질관리](https://www.yes24.com/Product/Goods/4123411) (Tech@NHN 시리즈, 위키북스, 2010) : NHN의 품질 혁신 활동(Quality Practice) 경험을 정리한 책
+{{< books >}}
+{{< book
+    title="네이버를 만든 기술, 읽으면서 배운다 - 자바편"
+    url="https://www.yes24.com/Product/Goods/16813496"
+    cover="/books/how-naver-works-java.jpg"
+    meta="TECH@NAVER 시리즈 · 위키북스 · 2015"
+    desc="네이버 기술 블로그(Hello world)의 자바 관련 글을 엮은 책" >}}
+{{< book
+    title="NHN 오픈 API를 활용한 매시업"
+    url="https://www.yes24.com/Product/Goods/7485386"
+    cover="/books/naver-open-api.jpg"
+    meta="Tech@NHN 시리즈 · 위키북스 · 2012"
+    desc="NHN 오픈 API의 활용법을 다룬 책" >}}
+{{< book
+    title="소프트웨어 품질관리"
+    url="https://www.yes24.com/Product/Goods/4123411"
+    cover="/books/naver-quality-practice.jpg"
+    meta="Tech@NHN 시리즈 · 위키북스 · 2010"
+    desc="NHN의 품질 혁신 활동(Quality Practice) 경험을 정리한 책" >}}
+{{< /books >}}
 
 ## 기고
 

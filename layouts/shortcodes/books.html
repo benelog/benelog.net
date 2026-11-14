@@ -1,0 +1,7 @@
+{{- /* 책 목록을 감싸는 틀. 안에 book shortcode를 넣는다.
+       layout="featured" 를 주면 표지를 크게, 책 한 권을 한 줄에 놓는다.
+       생략하면 여러 권을 가로로 나란히 놓는다.
+       스타일은 assets/css/userstyles.css 의 '책 목록' 절 참고. */ -}}
+<div class="books{{ with .Get "layout" }} books-{{ . }}{{ end }}">
+{{ .Inner }}
+</div>

@@ -1,0 +1,21 @@
+{{- /* 책 한 권. books shortcode 안에서 쓴다.
+         title : 책 제목
+         url   : 제목과 표지를 누르면 열리는 주소
+         cover : 표지 그림 경로. static/ 아래 기준 (예: /books/foo.jpg)
+         meta  : 시리즈·출판사·출간 연도
+         desc  : 한 줄 설명
+       마크다운 설정에서 raw HTML을 꺼 둔 상태라 shortcode로 만들었다.
+       그림 크기를 읽어 width/height를 넣어 두므로 그림이 늦게 떠도
+       글이 밀리지 않는다. */ -}}
+{{- $title := .Get "title" -}}
+{{- $url := .Get "url" -}}
+{{- $cover := .Get "cover" -}}
+{{- $size := imageConfig (printf "static%s" $cover) -}}
+<div class="book">
+  <a class="book-cover" href="{{ $url }}" tabindex="-1"><img src="{{ $cover | relURL }}" alt="{{ $title }} 표지" width="{{ $size.Width }}" height="{{ $size.Height }}" loading="lazy"></a>
+  <div class="book-body">
+    <p class="book-title"><a href="{{ $url }}">{{ $title }}</a></p>
+    {{ with .Get "meta" }}<p class="book-meta">{{ . }}</p>{{ end }}
+    {{ with .Get "desc" }}<p class="book-desc">{{ . }}</p>{{ end }}
+  </div>
+</div>
